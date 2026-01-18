@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <policy-portfolio-standard name="Nuclear-Ceiling">
+        <policyType>tax</policyType>
+        <market>South Korea</market>
+        <min-price year="2020">0</min-price>
+        <min-price year="2025">-1</min-price>
+        <min-price year="2030">-1</min-price>
+        <min-price year="2035">-1</min-price>
+        <constraint year="2020">0.577</constraint>
+        <constraint year="2025">0.670</constraint>
+        <constraint year="2030">0.735</constraint>
+        <constraint year="2035">0.850</constraint>
+      </policy-portfolio-standard>
+    </region>
+  </world>
+</scenario>

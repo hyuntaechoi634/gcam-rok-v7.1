@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <policy-portfolio-standard name="Offwind-Floor">
+        <policyType>subsidy</policyType>
+        <market>South Korea</market>
+        <constraint year="2025">0.006</constraint>
+        <constraint year="2030">0.109</constraint>
+        <constraint year="2035">0.208</constraint>
+      </policy-portfolio-standard>
+    </region>
+  </world>
+</scenario>

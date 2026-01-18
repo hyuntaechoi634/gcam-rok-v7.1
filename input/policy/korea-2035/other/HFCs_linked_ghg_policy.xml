@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="South Korea">
+      <linked-ghg-policy name="HFC125">
+        <market>HFCKR</market>
+        <linked-policy>Kigali-Amendment</linked-policy>
+        <price-adjust fillout="1" year="1975">0.8645</price-adjust>
+        <demand-adjust fillout="1" year="1975">3.170</demand-adjust>
+        <price-unit>1990$/KgHFC143a</price-unit>
+        <output-unit>GgHFC143a</output-unit>
+      </linked-ghg-policy>
+      <linked-ghg-policy name="HFC134a">
+        <market>HFCKR</market>
+        <linked-policy>Kigali-Amendment</linked-policy>
+        <price-adjust fillout="1" year="1975">0.3055</price-adjust>
+        <demand-adjust fillout="1" year="1975">1.120</demand-adjust>
+        <price-unit>1990$/KgHFC152a</price-unit>
+        <output-unit>GgHFC152a</output-unit>
+      </linked-ghg-policy>
+      <linked-ghg-policy name="HFC143a">
+        <market>HFCKR</market>
+        <linked-policy>Kigali-Amendment</linked-policy>
+        <price-adjust fillout="1" year="1975">1.3091</price-adjust>
+        <demand-adjust fillout="1" year="1975">4.8</demand-adjust>
+        <price-unit>1990$/KgHFC227ea</price-unit>
+        <output-unit>GgHFC227ea</output-unit>
+      </linked-ghg-policy>
+      <linked-ghg-policy name="HFC23">
+        <market>HFCKR</market>
+        <linked-policy>Kigali-Amendment</linked-policy>
+        <price-adjust fillout="1" year="1975">3.3818</price-adjust>
+        <demand-adjust fillout="1" year="1975">12.4</demand-adjust>
+        <price-unit>1990$/KgHFC23</price-unit>
+        <output-unit>GgHFC23</output-unit>
+      </linked-ghg-policy>
+      <linked-ghg-policy name="HFC32">
+        <market>HFCKR</market>
+        <linked-policy>Kigali-Amendment</linked-policy>
+        <price-adjust fillout="1" year="1975">0.1846</price-adjust>
+        <demand-adjust fillout="1" year="1975">0.677</demand-adjust>
+        <price-unit>1990$/KgHFC236fa</price-unit>
+        <output-unit>GgHFC236fa</output-unit>
+      </linked-ghg-policy>
+      <linked-ghg-policy name="HFC43">
+        <market>HFCKR</market>
+        <linked-policy>Kigali-Amendment</linked-policy>
+        <price-adjust fillout="1" year="1975">0.4500</price-adjust>
+        <demand-adjust fillout="1" year="1975">1.650</demand-adjust>
+        <price-unit>1990$/KgHFC32</price-unit>
+        <output-unit>GgHFC32</output-unit>
+      </linked-ghg-policy>
+      <linked-ghg-policy name="HFC227ea">
+        <market>HFCKR</market>
+        <linked-policy>Kigali-Amendment</linked-policy>
+        <price-adjust fillout="1" year="1975">0.9136</price-adjust>
+        <demand-adjust fillout="1" year="1975">3.350</demand-adjust>
+        <price-unit>1990$/KgHFC365mfc</price-unit>
+        <output-unit>GgHFC365mfc</output-unit>
+      </linked-ghg-policy>
+      <linked-ghg-policy name="HFC236fa">
+        <market>HFCKR</market>
+        <linked-policy>Kigali-Amendment</linked-policy>
+        <price-adjust fillout="1" year="1975">2.1982</price-adjust>
+        <demand-adjust fillout="1" year="1975">8.060</demand-adjust>
+        <price-unit>1990$/KgHFC43</price-unit>
+        <output-unit>GgHFC43</output-unit>
+      </linked-ghg-policy>
+      </region>
+   </world>
+</scenario>

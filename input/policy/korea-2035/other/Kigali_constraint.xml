@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="South Korea">
+            <ghgpolicy name="Kigali-Amendment">
+                <market>South Korea</market>
+                <constraint year="2030">24.3</constraint>
+                <constraint year="2035">18.2</constraint>
+                <constraint year="2040">12.2</constraint>
+                <constraint year="2045">6.1</constraint>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>

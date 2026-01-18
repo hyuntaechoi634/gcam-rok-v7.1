@@ -1,0 +1,321 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="Beef">
+        <subsector name="Mixed">
+          <technology name="FeedCrops">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+
+          </technology>
+
+          <technology name="Pasture_FodderGrass">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+
+          </technology>
+
+          <technology name="Scavenging_Other">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+          </technology>
+
+        </subsector>
+        <subsector name="Pastoral">
+          <technology name="Pasture_FodderGrass">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+           
+          </technology>
+          
+          <technology name="Scavenging_Other">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.1772</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.0065</emiss-coef>
+              </Non-CO2>
+            </period>
+            
+          </technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="Dairy">
+        <subsector name="Mixed">
+          <technology name="Pasture_FodderGrass">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+
+          </technology>
+          <technology name="FeedCrops">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+
+          </technology>
+          <technology name="Scavenging_Other">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+
+          </technology>
+        </subsector>
+        <subsector name="Pastoral">
+          <technology name="Pasture_FodderGrass">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+           
+          </technology>
+          
+          <technology name="Scavenging_Other">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.0143</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00053</emiss-coef>
+              </Non-CO2>
+            </period>
+            
+          </technology>
+        </subsector>
+      </supplysector>
+
+      <supplysector name="SheepGoat">
+        <subsector name="Mixed">
+          <technology name="Pasture_FodderGrass">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+
+          </technology>
+          <technology name="FeedCrops">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+
+
+          </technology>
+          <technology name="Scavenging_Other">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+
+
+          </technology>
+        </subsector>
+        <subsector name="Pastoral">
+          <technology name="Pasture_FodderGrass">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+
+           
+          </technology>
+          
+          <technology name="Scavenging_Other">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.3645</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.01342</emiss-coef>
+              </Non-CO2>
+            </period>
+            
+          </technology>
+        </subsector>
+      </supplysector>
+      
+      
+    </region>
+  </world>
+</scenario>

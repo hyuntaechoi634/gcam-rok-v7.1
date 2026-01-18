@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="chemical feedstocks">
+                <subsector name="refined liquids">
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.053</efficiency>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="refined liquids industrial">
+                                <efficiency>1.156</efficiency>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

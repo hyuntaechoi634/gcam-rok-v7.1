@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+   <world>
+      <region name="South Korea">
+         <policy-portfolio-standard name="dac-floor">
+            <policyType>subsidy</policyType>
+            <market>South Korea</market>
+            <min-price year="2030">0</min-price>
+            <min-price year="2035">0</min-price>
+            <min-price year="2040">0</min-price>
+            <constraint year="2030">0.8072</constraint>
+            <constraint year="2035">1.6145</constraint>
+            <constraint year="2040">2.4218</constraint>
+            <constraint year="2045">3.229</constraint>
+            <constraint year="2050">4.036</constraint>
+   	   </policy-portfolio-standard>
+      </region>
+   </world>
+</scenario>

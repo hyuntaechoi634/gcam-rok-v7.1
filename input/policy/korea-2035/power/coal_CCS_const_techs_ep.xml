@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="coal">
+          <stub-technology name="coal (conv pul CCS)">
+            <period year="2030">
+              <input-subsidy name="Coal-CCS-Floor"/>
+            </period>
+            <period year="2035">
+              <input-subsidy name="Coal-CCS-Floor"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

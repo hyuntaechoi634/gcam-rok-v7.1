@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      
+      <supplysector name="iron and steel">
+        
+        <subsector name="EAF with DRI">
+          <interpolation-rule apply-to="share-weight" delete="1" from-year="2025" to-year="2035" to-value="1">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2055" from-value="1" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <share-weight fillout="1" year="2035">1</share-weight>
+
+          <stub-technology name="Hydrogen-based DRI">
+            <interpolation-rule apply-to="share-weight" delete="1" from-year="2025" to-year="2035" from-value="0" to-value="1">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2055" from-value="1" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <share-weight fillout="1" year="2035">1</share-weight>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

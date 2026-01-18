@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="comm heating">
+        <subsector name="electricity">
+          <stub-technology name="electricity">
+            <period year="2020">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm cooling">
+        <subsector name="electricity">
+          <stub-technology name="electricity">
+            <period year="2020">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm others">
+        <subsector name="electricity">
+          <stub-technology name="electricity">
+            <period year="2020">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="pv-subsidy-comm">
+                <input-cost>-0.030</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

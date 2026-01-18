@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="South Korea">
+            <demographics>
+                <populationMiniCAM year="2025">
+                    <totalPop>51448</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2030">
+                    <totalPop>48390</totalPop>
+                </populationMiniCAM>
+                <populationMiniCAM year="2035">
+                    <totalPop>45476</totalPop>
+                </populationMiniCAM>
+            </demographics>
+            <nationalAccountContainer>
+                <nationalAccount year="2025">
+                    <GDP>1120752</GDP>
+                </nationalAccount>
+                <nationalAccount year="2030">
+                    <GDP>1156996</GDP>
+                </nationalAccount>
+                <nationalAccount year="2035">
+                    <GDP>1194324</GDP>
+                </nationalAccount>
+            </nationalAccountContainer>
+        </region>
+    </world>
+</scenario>

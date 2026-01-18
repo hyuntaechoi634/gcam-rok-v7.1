@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <gcam-consumer name="comm">
+        <nodeInput name="comm">
+          <building-node-input name="comm_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d1">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d10">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d2">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d3">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d4">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d5">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d6">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d7">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d8">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d9">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <floor-to-surface-ratio year="2020">5.5</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2025">5.49</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2030">5.48</floor-to-surface-ratio>
+            <floor-to-surface-ratio year="2035">5.46</floor-to-surface-ratio>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+    </region>
+  </world>
+</scenario>

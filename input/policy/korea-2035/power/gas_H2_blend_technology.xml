@@ -1,0 +1,254 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <global-technology-database>
+      <location-info sector-name="electricity" subsector-name="gas">
+        <technology name="gas (CC H2 blend 50%)">
+          <period year="1975">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>0.9</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="1990">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>0.9</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2005">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.0</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2010">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.13</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2015">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.13</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <lifetime>45</lifetime>
+            <s-curve-shutdown-decider name="s-curve">
+              <steepness>0.1</steepness>
+              <half-life>22.5</half-life>
+            </s-curve-shutdown-decider>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2020">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.154</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>45</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2025">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.176</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>45</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2030">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.196</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>45</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2035">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.216</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>45</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2040">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.234</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>45</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2045">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.25</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>45</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2050">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="wholesale gas">
+              <efficiency>1.264</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>45</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="H2 wholesale dispensing">
+              <coefficient>0.331</coefficient>
+            </minicam-energy-input>
+          </period>
+        </technology>
+      </location-info>
+    </global-technology-database>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="gas">
+          <stub-technology name="gas (CC H2 blend 50%)"/>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

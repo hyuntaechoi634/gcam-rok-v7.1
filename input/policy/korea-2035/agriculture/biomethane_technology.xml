@@ -1,0 +1,459 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <global-technology-database>
+      <location-info sector-name="agricultural energy use" subsector-name="stationary">
+        <technology name="biomethane">
+          <period year="1975">
+              <share-weight>0</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.06</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+          </period>
+          <period year="1990">
+              <share-weight>0</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.058</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+          </period>
+          <period year="2005">
+              <share-weight>0</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.056</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+          </period>
+          <period year="2010">
+              <share-weight>0</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.054</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+          </period>
+          <period year="2015">
+              <share-weight>0</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.052</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2020">
+              <share-weight>0</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.050</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2025">
+              <share-weight>0</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.048</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2030">
+              <share-weight>0</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.046</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2035">
+              <share-weight>0</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.044</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2040">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.042</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2045">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.040</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2050">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.038</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2055">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.036</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2060">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.034</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2065">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.032</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2070">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.030</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2075">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.028</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2080">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.026</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2085">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.024</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2090">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.022</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2095">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.020</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+          <period year="2100">
+              <share-weight>1</share-weight>
+              <CO2 name="CO2"/>
+                <minicam-energy-input name="wholesale gas">
+                    <coefficient>0.018</coefficient>
+                </minicam-energy-input>
+              <tracking-non-energy-input name="non-energy">
+                  <capital-coef>5.53011039513422</capital-coef>
+                  <tracking-market>capital</tracking-market>
+                  <depreciation-rate>0</depreciation-rate>
+                  <input-cost>5</input-cost>
+              </tracking-non-energy-input>
+              <lifetime>20</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                  <steepness>0.3</steepness>
+                  <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+              <profit-shutdown-decider name="profit">
+                  <median-shutdown-point>-0.5</median-shutdown-point>
+                  <steepness>6</steepness>
+              </profit-shutdown-decider>
+          </period>
+      </technology>
+      </location-info>
+    </global-technology-database>
+  </world>
+</scenario>

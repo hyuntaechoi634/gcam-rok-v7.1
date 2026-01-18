@@ -1,0 +1,432 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="iron and steel">
+        <subsector name="BLASTFUR">
+          <interpolation-rule apply-to="share-weight" delete="1" from-year="2025" to-year="2035" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2055" from-value="0" to-value="0">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <share-weight fillout="1" year="2035">0</share-weight>
+          <stub-technology name="BLASTFUR">
+            <period year="2030">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2030">0.110</current-coef>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2035">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2040">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2045">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2050">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+          </stub-technology>
+
+          <stub-technology name="BLASTFUR CCS">
+            <period year="2030">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2030">0.110</current-coef>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2035">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2040">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2045">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2050">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+          </stub-technology>
+
+
+          <stub-technology name="BLASTFUR CCS with hydrogen">
+            <period year="2030">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2030">0.110</current-coef>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2035">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2040">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2045">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2050">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+          </stub-technology>
+
+          <stub-technology name="BLASTFUR with hydrogen">
+            <period year="2030">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2030">0.110</current-coef>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2035">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2040">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2045">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2050">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+          </stub-technology>
+    
+          <stub-technology name="Biomass-based">
+            <period year="2030">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2030">0.110</current-coef>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2035">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2040">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2045">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2050">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+          </stub-technology>
+        
+        </subsector>
+        <subsector name="EAF with DRI">
+
+          <stub-technology name="EAF with DRI">
+            <period year="2030">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2030">0.110</current-coef>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2035">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2040">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2045">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2050">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+          </stub-technology>
+
+          <stub-technology name="EAF with DRI CCS">
+            <period year="2030">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2030">0.110</current-coef>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2035">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2040">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2045">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2050">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+          </stub-technology>
+
+          <stub-technology name="Hydrogen-based DRI">
+            <period year="2030">
+                <res-secondary-output name="Ironsteel_early_deployment">
+                    <output-ratio>1</output-ratio>
+                </res-secondary-output>
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2030">0.110</current-coef>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2035">
+                <res-secondary-output name="Ironsteel_early_deployment">
+                    <output-ratio>1</output-ratio>
+                </res-secondary-output>
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2040">
+                <res-secondary-output name="Ironsteel_early_deployment">
+                    <output-ratio>1</output-ratio>
+                </res-secondary-output>
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2045">
+                <res-secondary-output name="Ironsteel_early_deployment">
+                    <output-ratio>1</output-ratio>
+                </res-secondary-output>
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <coefficient>0.367</coefficient>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2050">
+                <res-secondary-output name="Ironsteel_early_deployment">
+                    <output-ratio>1</output-ratio>
+                </res-secondary-output>
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+          </stub-technology>              
+        </subsector>
+        <subsector name="EAF with scrap">
+
+          <stub-technology name="EAF with scrap">
+            <period year="2030">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2030">0.110</current-coef>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2035">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2035">0.220</current-coef>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2040">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2040">0.330</current-coef>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2045">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2045">0.440</current-coef>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+            <period year="2050">
+                <minicam-energy-input name="Ironsteel_early_deployment">
+                    <market-name>South Korea</market-name>
+                    <current-coef year="2050">0.550</current-coef>
+                </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+
+      <policy-portfolio-standard name="Ironsteel_early_deployment">
+            <market>South Korea Iron and Steel Early Deployment</market>
+            <policyType>RES</policyType>
+            <constraint fillout="1" year="2030">1</constraint>
+      </policy-portfolio-standard>
+    </region>
+  </world>
+</scenario>

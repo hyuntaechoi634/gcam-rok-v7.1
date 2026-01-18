@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="urban processes">
+                <subsector name="waste_incineration">
+                    <stub-technology year="2030" name="waste_incineration">
+                        <period year="2030">
+                            <Non-CO2 name="CH4">
+                                <emiss-coef>0.655196</emiss-coef>   <!-- 0.806892 × 0.812 -->
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O">
+                                <emiss-coef>0.0402810</emiss-coef>  <!-- 0.0496071 × 0.812 -->
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4">
+                                <emiss-coef>0.583383</emiss-coef>   <!-- 0.806892 × 0.723 -->
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O">
+                                <emiss-coef>0.035866</emiss-coef>   <!-- 0.0496071 × 0.723 -->
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="landfills">
+                    <stub-technology name="landfills">
+                        <period year="2030">
+                            <Non-CO2 name="CH4">
+                                <emiss-coef>22.100772</emiss-coef>  <!-- 27.2177 × 0.812 -->
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4">
+                                <emiss-coef>19.678397</emiss-coef>  <!-- 27.2177 × 0.723 -->
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>                        
+                    </stub-technology>
+                </subsector>
+                <subsector name="wastewater">
+                    <stub-technology year="2030" name="wastewater">
+                        <period year="2030">
+                            <Non-CO2 name="CH4">
+                                <emiss-coef>499.45308</emiss-coef>  <!-- 615.09 × 0.812 -->
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O">
+                                <emiss-coef>3.338400</emiss-coef>   <!-- 4.11133 × 0.812 -->
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4">
+                                <emiss-coef>444.71007</emiss-coef>   <!-- 615.09 × 0.723 -->
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O">
+                                <emiss-coef>2.972491</emiss-coef>   <!-- 4.11133 × 0.723 -->
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

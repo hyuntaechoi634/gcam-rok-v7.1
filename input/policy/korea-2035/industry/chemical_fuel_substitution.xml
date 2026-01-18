@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="chemical feedstocks">
+                <subsector name="refined liquids">
+                    <stub-technology name="refined liquids">
+                        <period year="2030">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.80</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2035">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.82</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

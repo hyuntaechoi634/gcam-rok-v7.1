@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="South Korea">
+            <pass-through-sector name="elec_gas (steam/CT)">
+                <subsector name="gas (steam/CT)">
+                    <stub-technology name="gas (steam/CT) (once through)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas (steam/CT) (seawater)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas (steam/CT) (recirculating)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas (steam/CT) (cooling pond)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas (steam/CT) (dry cooling)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </pass-through-sector>
+            <pass-through-sector name="elec_gas (CC)">
+                <subsector name="gas (CC)">
+                    <stub-technology name="gas (CC) (once through)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas (CC) (seawater)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas (CC) (recirculating)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas (CC) (cooling pond)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="gas (CC) (dry cooling)">
+                        <period year="2015">
+                            <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <exogenous-shutdown-decider name="exogenous-shutdown">
+                                <output-scalar year="2020">1.22</output-scalar>
+                                <output-scalar year="2025">1.37</output-scalar>
+                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2035">0.713</output-scalar>
+                            </exogenous-shutdown-decider>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </pass-through-sector>
+        </region>
+    </world>
+</scenario>

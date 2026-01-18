@@ -1,0 +1,377 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="H2 central production">
+        <subsector name="coal">
+          <stub-technology name="coal chemical">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal chemical CCS">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="natural gas steam reforming">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas ATR CCS">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="biomass">
+          <stub-technology name="biomass to H2">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass to H2 CCS">
+
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="nuclear">
+          <stub-technology name="electrolysis">
+
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="electricity">
+          <stub-technology name="electrolysis">
+
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="wind">
+          <stub-technology name="electrolysis">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="electrolysis">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="H2 pipeline">
+        <subsector name="H2 pipeline">
+          <stub-technology name="H2 pipeline">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="H2 liquid truck">
+        <subsector name="H2 liquid truck">
+          <stub-technology name="H2 liquid truck">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="H2 wholesale delivery">
+        <subsector name="H2 pipeline">
+          <stub-technology name="H2 pipeline">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="H2 liquid truck">
+          <stub-technology name="H2 liquid truck">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="H2 industrial">
+        <subsector name="H2 delivery">
+          <stub-technology name="H2 delivery">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="onsite production">
+          <stub-technology name="electrolysis">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="H2 retail delivery">
+        <subsector name="H2 retail delivery">
+          <stub-technology name="H2 retail delivery">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="H2 wholesale dispensing">
+        <subsector name="H2 delivery">
+          <stub-technology name="H2 pipeline">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="H2 liquid truck">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="forecourt production">
+          <stub-technology name="natural gas steam reforming">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="electrolysis">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+              <res-secondary-output name="cleanHydrogenCredits">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="H2 retail dispensing">
+        <subsector name="H2 retail dispensing">
+          <stub-technology name="H2 retail dispensing">
+            <period year="2030">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.5155</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="cleanHydrogenCredits">
+                <coefficient>0.6366</coefficient>
+              </minicam-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="cleanHydrogenCredits">
+        <market>South Korea</market>
+        <policyType>RES</policyType>
+        <constraint fillout="1" year="2030">1</constraint>
+      </policy-portfolio-standard>
+    </region>
+  </world>
+</scenario>

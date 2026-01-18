@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+<world>
+    <region name="South Korea">
+        <supplysector name="CO2 removal">
+            <subsector name="dac">
+                <stub-technology name="hightemp DAC NG">
+                    <period year="2030">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2035">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2040">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2045">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2050">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                </stub-technology>
+                <stub-technology name="hightemp DAC elec">
+                    <period year="2030">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2035">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2040">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2045">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2050">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                </stub-technology>
+                <stub-technology name="lowtemp DAC heatpump">
+                    <period year="2030">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2035">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2040">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2045">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                    <period year="2050">
+                        <input-subsidy name="dac-floor"/>
+                    </period>
+                </stub-technology>
+            </subsector>
+	    </supplysector>
+      </region>
+   </world>
+</scenario>

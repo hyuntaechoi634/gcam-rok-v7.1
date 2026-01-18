@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <gcam-consumer name="comm">
+        <nodeInput name="comm">
+          <building-node-input name="comm_building">
+            <shell-conductance year="2025">0.9870588</shell-conductance>
+            <shell-conductance year="2030">0.8291294</shell-conductance>
+            <shell-conductance year="2035">0.7699059</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d1">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.98146</shell-conductance>
+            <shell-conductance year="2030">0.8244264</shell-conductance>
+            <shell-conductance year="2035">0.7655388</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d10">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.9469357</shell-conductance>
+            <shell-conductance year="2030">0.7954260</shell-conductance>
+            <shell-conductance year="2035">0.7386098</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d2">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.9788795</shell-conductance>
+            <shell-conductance year="2030">0.8222588</shell-conductance>
+            <shell-conductance year="2035">0.7635260</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d3">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.9779445</shell-conductance>
+            <shell-conductance year="2030">0.8214734</shell-conductance>
+            <shell-conductance year="2035">0.7627967</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d4">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.9773438</shell-conductance>
+            <shell-conductance year="2030">0.8209688</shell-conductance>
+            <shell-conductance year="2035">0.7623282</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d5">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.9768869</shell-conductance>
+            <shell-conductance year="2030">0.8205850</shell-conductance>
+            <shell-conductance year="2035">0.7619718</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d6">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.9764684</shell-conductance>
+            <shell-conductance year="2030">0.8202335</shell-conductance>
+            <shell-conductance year="2035">0.7616454</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d7">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.9760221</shell-conductance>
+            <shell-conductance year="2030">0.8198586</shell-conductance>
+            <shell-conductance year="2035">0.7612972</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d8">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.9754727</shell-conductance>
+            <shell-conductance year="2030">0.8193971</shell-conductance>
+            <shell-conductance year="2035">0.7608687</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+      <gcam-consumer name="resid_d9">
+        <nodeInput name="resid">
+          <building-node-input name="resid_building">
+            <shell-conductance year="2025">0.97444</shell-conductance>
+            <shell-conductance year="2030">0.8185296</shell-conductance>
+            <shell-conductance year="2035">0.7600632</shell-conductance>
+          </building-node-input>
+        </nodeInput>
+      </gcam-consumer>
+    </region>
+  </world>
+</scenario>

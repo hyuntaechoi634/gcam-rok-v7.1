@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="solar">
+          <stub-technology name="PV">
+            <period year="2020">
+              <input-subsidy name="Solar-Floor"/>
+            </period>
+            <period year="2025">
+              <input-subsidy name="Solar-Floor"/>
+            </period>
+            <period year="2030">
+              <input-subsidy name="Solar-Floor"/>
+            </period>
+            <period year="2035">
+              <input-subsidy name="Solar-Floor"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="nuclear">
+          <stub-technology name="Gen_II_LWR">
+            <period year="2020">
+              <input-tax name="Nuclear-Ceiling"/>
+            </period>
+            <period year="2025">
+              <input-tax name="Nuclear-Ceiling"/>
+            </period>
+            <period year="2030">
+              <input-tax name="Nuclear-Ceiling"/>
+            </period>
+            <period year="2035">
+              <input-tax name="Nuclear-Ceiling"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="Gen_III">
+            <period year="2020">
+              <input-tax name="Nuclear-Ceiling"/>
+            </period>
+            <period year="2025">
+              <input-tax name="Nuclear-Ceiling"/>
+            </period>
+            <period year="2030">
+              <input-tax name="Nuclear-Ceiling"/>
+            </period>
+            <period year="2035">
+              <input-tax name="Nuclear-Ceiling"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <global-technology-database>
+      <location-info sector-name="electricity" subsector-name="coal">
+        <technology name="coal (conv pul ammonia blend 20%)">
+          <period year="1975">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.389</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="1990">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.438</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2005">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.489</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2010">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.496</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2015">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.496</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <lifetime>60</lifetime>
+            <s-curve-shutdown-decider name="s-curve">
+              <steepness>0.1</steepness>
+              <half-life>30</half-life>
+            </s-curve-shutdown-decider>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2020">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.512</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>60</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>0</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2025">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.529</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>60</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>0</share-weight>
+            <!-- <share-weight>1</share-weight> -->
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2030">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.542</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>60</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2035">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.556</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>60</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2040">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.568</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>60</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2045">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.58</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>60</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+          <period year="2050">
+            <keyword average-fossil-efficiency=""/>
+            <capacity-factor>0.85</capacity-factor>
+            <minicam-energy-input name="regional coal">
+              <efficiency>0.59</efficiency>
+            </minicam-energy-input>
+            <CO2 name="CO2"/>
+            <lifetime>60</lifetime>
+            <profit-shutdown-decider name="profit">
+              <median-shutdown-point>-0.1</median-shutdown-point>
+              <steepness>6</steepness>
+            </profit-shutdown-decider>
+            <share-weight>1</share-weight>
+            <input-capital name="cooling system">
+              <capital-overnight>10</capital-overnight>
+              <fixed-charge-rate>0.15</fixed-charge-rate>
+            </input-capital>
+            <minicam-energy-input name="ammonia">
+              <coefficient>0.442</coefficient>
+            </minicam-energy-input>
+          </period>
+        </technology>
+      </location-info>
+    </global-technology-database>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="coal">
+          <stub-technology name="coal (conv pul ammonia blend 20%)"/>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

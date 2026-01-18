@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="electricity">
+                <subsector name="coal">
+                    <stub-technology name="coal (conv pul)">
+                        <interpolation-rule apply-to="share-weight" delete="1" from-year="2015" from-value="0" to-year="2050" to-value="0">
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+                    <stub-technology name="coal (IGCC)">
+                        <interpolation-rule apply-to="share-weight" delete="1" from-year="2015" from-value="0" to-year="2050" to-value="0">
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

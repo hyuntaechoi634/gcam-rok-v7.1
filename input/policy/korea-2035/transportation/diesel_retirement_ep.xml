@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="trn_freight_road">
+        <tranSubsector name="Medium truck">
+          <stub-technology name="Liquids">
+            <period year="2015">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.316</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2020">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.316</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.316</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.593</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.593</steepness>
+                <half-life>10</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+        </tranSubsector>
+      </supplysector>
+      <supplysector name="trn_pass_road_LDV_4W">
+        <tranSubsector name="Car">
+          <stub-technology name="Liquids">
+            <period year="2015">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.362</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2020">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.362</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.362</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.655</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.193</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+        </tranSubsector>
+        <tranSubsector name="Large Car and Truck">
+          <stub-technology name="Liquids">
+            <period year="2015">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.403</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2020">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.403</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.403</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.697</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.697</steepness>
+                <half-life>11</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+        </tranSubsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="electricity">
+
+                <subsector name="wind">
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2020" to-year="2055" from-value="1" to-value="1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+
+                <subsector name="solar">
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2020" to-year="2055" from-value="1" to-value="1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+
+                </subsector>
+            </supplysector>
+
+        </region>
+    </world>
+</scenario>

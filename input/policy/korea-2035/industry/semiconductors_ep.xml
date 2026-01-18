@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="industrial processes">
+        <subsector name="semiconductors">
+          <stub-technology name="semiconductors">
+            <period year="2030">
+              <Non-CO2 name="CF4">
+                <emiss-coef>0</emiss-coef>
+                <output-driver/>
+                <emissions-unit>Gg</emissions-unit>
+              </Non-CO2>
+              <Non-CO2 name="C2F6">
+                <emiss-coef>0</emiss-coef>
+                <output-driver/>
+                <emissions-unit>Gg</emissions-unit>
+              </Non-CO2>
+              <Non-CO2 name="HFC23">
+                <emiss-coef>0</emiss-coef>
+                <output-driver/>
+                <emissions-unit>Gg</emissions-unit>
+              </Non-CO2>
+              <Non-CO2 name="SF6">
+                <emiss-coef>0</emiss-coef>
+                <output-driver/>
+                <emissions-unit>Gg</emissions-unit>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CF4">
+                <emiss-coef>0</emiss-coef>
+                <output-driver/>
+                <emissions-unit>Gg</emissions-unit>
+              </Non-CO2>
+              <Non-CO2 name="C2F6">
+                <emiss-coef>0</emiss-coef>
+                <output-driver/>
+                <emissions-unit>Gg</emissions-unit>
+              </Non-CO2>
+              <Non-CO2 name="HFC23">
+                <emiss-coef>0</emiss-coef>
+                <output-driver/>
+                <emissions-unit>Gg</emissions-unit>
+              </Non-CO2>
+              <Non-CO2 name="SF6">
+                <emiss-coef>0</emiss-coef>
+                <output-driver/>
+                <emissions-unit>Gg</emissions-unit>
+              </Non-CO2>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

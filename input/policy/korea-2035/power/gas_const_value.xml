@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <policy-portfolio-standard name="Gas-Ceiling">
+        <policyType>tax</policyType>
+        <market>South Korea</market>
+        <constraint year="2020">0.526</constraint>
+        <constraint year="2025">0.592</constraint>
+        <constraint year="2030">0.553</constraint>
+        <constraint year="2035">0.309</constraint>
+      </policy-portfolio-standard>
+    </region>
+  </world>
+</scenario>

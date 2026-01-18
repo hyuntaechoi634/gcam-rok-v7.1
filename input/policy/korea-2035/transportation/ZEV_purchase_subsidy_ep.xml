@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="trn_freight_road">
+        <subsector name="Medium truck">
+          <stub-technology name="BEV">
+            <period year="2025">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0102</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0102</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0102</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <period year="2025">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.2190</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.2190</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.2190</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="trn_pass_road_LDV_4W">
+        <subsector name="Car">
+          <stub-technology name="BEV">
+            <period year="2025">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0253</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0253</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0253</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <period year="2025">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0717</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0717</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0717</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="Large Car and Truck">
+          <stub-technology name="BEV">
+            <period year="2025">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0253</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0253</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0253</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <period year="2025">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0717</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0717</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0717</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="trn_pass_road">
+        <subsector name="Bus">
+          <stub-technology name="BEV">
+            <period year="2025">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0050</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0050</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0050</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <period year="2025">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0113</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0113</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="purchase-subsidy">
+                <input-cost>-0.0113</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

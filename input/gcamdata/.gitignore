@@ -36,3 +36,14 @@ GTAPv10_basedata_VKB_SAVE_VDEP.csv.gz
 # Renv
 renv/activate.R
 .Rprofile
+
+# --- GCAM crash / logs ---
+exe/hs_err_pid*.log
+exe/core.*
+exe/*.out
+exe/*.log
+exe/worst_market_log
+
+# --- analysis / intermediate ---
+analysis/
+impl/

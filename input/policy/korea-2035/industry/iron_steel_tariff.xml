@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="traded iron and steel">
+                <subsector name="South Korea traded iron and steel">
+                    <technology name="South Korea traded iron and steel">
+                        <period year="2025">
+                            <minicam-non-energy-input name="tariff">
+                                <input-cost>0.010</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2030">
+                            <minicam-non-energy-input name="tariff">
+                                <input-cost>0.005</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-non-energy-input name="tariff">
+                                <input-cost>0.000</input-cost>
+                            </minicam-non-energy-input>
+                        </period>
+                    </technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+   <world>
+      <region name="South Korea">
+         <linked-ghg-policy name="CH4">
+            <price-adjust fillout="1" year="1975">7.6364</price-adjust>
+            <demand-adjust fillout="1" year="1975">28</demand-adjust>
+            <market>CH4KR</market>
+            <linked-policy>Global-Methane-Pledge</linked-policy>
+            <price-unit>1990$/MgCH4</price-unit>
+            <output-unit>TgCH4</output-unit>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AWB">
+            <price-adjust fillout="1" year="1975">7.6364</price-adjust>
+            <demand-adjust fillout="1" year="1975">28</demand-adjust>
+            <market>CH4KR</market>
+            <linked-policy>Global-Methane-Pledge</linked-policy>
+            <price-unit>1990$/MgCH4</price-unit>
+            <output-unit>TgCH4</output-unit>
+         </linked-ghg-policy>
+         <linked-ghg-policy name="CH4_AGR">
+            <price-adjust fillout="1" year="1975">7.6364</price-adjust>
+            <demand-adjust fillout="1" year="1975">28</demand-adjust>
+            <market>CH4KR</market>
+            <linked-policy>Global-Methane-Pledge</linked-policy>
+            <price-unit>1990$/MgCH4</price-unit>
+            <output-unit>TgCH4</output-unit>
+         </linked-ghg-policy>
+      </region>
+   </world>
+</scenario>

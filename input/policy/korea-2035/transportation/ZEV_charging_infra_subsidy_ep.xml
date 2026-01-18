@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="trn_freight_road">
+        <subsector name="Medium truck">
+          <stub-technology name="BEV">
+            <period year="2025">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0040</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0045</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0045</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <period year="2025">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0065</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0072</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0072</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="trn_pass_road_LDV_4W">
+        <subsector name="Car">
+          <stub-technology name="BEV">
+            <period year="2025">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0032</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0036</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0036</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <period year="2025">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0037</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0041</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0041</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="Large Car and Truck">
+          <stub-technology name="BEV">
+            <period year="2025">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0032</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0036</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0036</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <period year="2025">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0037</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0041</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0041</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="trn_pass_road">
+        <subsector name="Bus">
+          <stub-technology name="BEV">
+            <period year="2025">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0012</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0014</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0014</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <period year="2025">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0013</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0015</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="charging-infra-subsidy">
+                <input-cost>-0.0015</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

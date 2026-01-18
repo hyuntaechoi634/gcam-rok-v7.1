@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="cement">
+        <subsector name="cement">
+          <stub-technology name="cement">
+            <period year="2015">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2020">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+          <stub-technology name="cement LC3"/>
+          <stub-technology name="cement CCS">
+            <period year="2015">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2020">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2025">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2030">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+            <period year="2035">
+              <lifetime>30</lifetime>
+              <s-curve-shutdown-decider name="s-curve">
+                <steepness>0.3</steepness>
+                <half-life>15</half-life>
+              </s-curve-shutdown-decider>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

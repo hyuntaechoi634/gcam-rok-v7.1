@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="wind">
+          <stub-technology name="wind_offshore">
+            <period year="2020">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2025">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2030">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2035">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2040">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2045">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2050">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2055">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2060">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2065">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2070">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2075">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2080">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2085">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2090">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2095">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+            <period year="2100">
+              <capacity-factor>0.36</capacity-factor>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <gcam-consumer name="FoodDemand">
+          <subregional-income-share fillout="1" year="2030">0.93</subregional-income-share>
+          <subregional-income-share fillout="1" year="2035">0.89</subregional-income-share>
+          <subregional-population-share fillout="1" year="2030">0.93</subregional-population-share>
+          <subregional-population-share fillout="1" year="2035">0.89</subregional-population-share>
+      </gcam-consumer>
+    </region>
+  </world>
+</scenario>

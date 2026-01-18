@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="electricity">
+
+                <subsector name="refined liquids">
+                    
+                    <stub-technology name="refined liquids (CC)">
+                        <interpolation-rule apply-to="share-weight" delete="1" from-year="2025" to-year="2055" from-value="0" to-value="0">
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+
+                    <stub-technology name="refined liquids (steam/CT)">
+                        <interpolation-rule apply-to="share-weight" delete="1" from-year="2025" to-year="2055" from-value="0" to-value="0">
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+
+                </subsector>
+            </supplysector>
+
+        </region>
+    </world>
+</scenario>

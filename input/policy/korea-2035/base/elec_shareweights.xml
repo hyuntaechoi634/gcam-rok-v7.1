@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="electricity">
+
+                <subsector name="nuclear">
+                    <share-weight year="2020">1</share-weight>
+                    <share-weight year="2050">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" delete="1" from-year="2015" from-value="1" to-year="2055" to-value="1">
+                        <interpolation-function name="fixed"/>
+                    </interpolation-rule>
+                </subsector>
+
+                <subsector name="solar">
+                    <stub-technology name="CSP">
+                        <period year="2020">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <interpolation-rule apply-to="share-weight" delete="1" from-year="2015" to-year="2055" from-value="0" to-value="0">
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+                    <stub-technology name="CSP_storage">
+                        <period year="2020">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <interpolation-rule apply-to="share-weight" delete="1" from-year="2015" to-year="2055" from-value="0" to-value="0">
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+
+                </subsector>
+
+                <subsector name="biomass">
+
+                    <stub-technology name="biomass (conv CCS)">
+                        <period year="2020">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <interpolation-rule apply-to="share-weight" delete="1" from-year="2015" to-year="2055" from-value="0" to-value="0">
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+                    
+                    <stub-technology name="biomass (IGCC CCS)">
+                        <period year="2020">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <interpolation-rule apply-to="share-weight" delete="1" from-year="2015" to-year="2055" from-value="0" to-value="0">
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+
+                </subsector>
+
+                <subsector name="refined liquids">
+                    
+                    <stub-technology name="refined liquids (CC CCS)">
+
+                        <period year="2020">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <period year="2050">
+                            <share-weight>0</share-weight>
+                        </period>
+                        <interpolation-rule apply-to="share-weight" delete="1" from-year="2015" to-year="2055" from-value="0" to-value="0">
+                            <interpolation-function name="fixed"/>
+                        </interpolation-rule>
+                    </stub-technology>
+
+                </subsector>
+            </supplysector>
+
+        </region>
+    </world>
+</scenario>

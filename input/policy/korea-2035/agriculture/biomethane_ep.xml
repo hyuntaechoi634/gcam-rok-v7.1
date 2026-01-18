@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="agricultural energy use">
+        <subsector name="stationary">
+            <stub-technology name="biomethane">
+                <share-weight fillout="1" year="1975">0</share-weight>
+                <share-weight fillout="1" year="2030">0.1</share-weight>
+                <share-weight fillout="1" year="2035">0.2</share-weight>
+                <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2100" to-value="1">
+                    <interpolation-function name="linear"/>
+                </interpolation-rule>
+            </stub-technology>
+        </subsector>
+    </supplysector>
+    </region>
+  </world>
+</scenario>

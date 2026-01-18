@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="trn_pass_road_LDV_4W">
+        <!-- interp ~ linear -->
+        <subsector name="Car">
+          <stub-technology name="BEV">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2050" to-value="1">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" to-value="1">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="Large Car and Truck">
+          <stub-technology name="BEV">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2050" to-value="1">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" to-value="1">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="trn_pass_road">
+        <subsector name="Bus">
+          <stub-technology name="BEV">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2050" to-value="1">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" to-value="1">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="trn_freight_road">
+        <subsector name="Medium truck">
+          <stub-technology name="BEV">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2050" to-value="1">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="FCEV">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2100" to-value="1">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

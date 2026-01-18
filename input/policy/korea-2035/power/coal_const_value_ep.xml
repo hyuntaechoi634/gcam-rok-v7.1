@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <policy-portfolio-standard name="Coal-Ceiling">
+        <policyType>tax</policyType>
+        <market>South Korea</market>
+        <constraint year="2020">0.713</constraint>
+        <constraint year="2025">0.606</constraint>
+        <constraint year="2030">0.303</constraint>
+        <constraint year="2035">0.001</constraint>
+      </policy-portfolio-standard>
+    </region>
+  </world>
+</scenario>

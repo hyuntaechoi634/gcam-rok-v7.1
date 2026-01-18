@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <policy-portfolio-standard name="Solar-Floor">
+        <policyType>subsidy</policyType>
+        <market>South Korea</market>
+        <constraint year="2020">0.060</constraint>
+        <constraint year="2025">0.141</constraint>
+        <constraint year="2030">0.311</constraint>
+        <constraint year="2035">0.502</constraint>
+      </policy-portfolio-standard>
+    </region>
+  </world>
+</scenario>

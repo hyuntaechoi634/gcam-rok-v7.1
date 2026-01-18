@@ -1,0 +1,527 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="resid heating modern_d1">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d2">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d3">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d4">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d5">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d6">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d7">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d8">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d9">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d10">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d1">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d2">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d3">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d4">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d5">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d6">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d7">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d8">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d9">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d10">
+        <subsector name="gas">
+          <stub-technology name="hydrogen">
+            <period year="2020">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2025">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.0969</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="h2-subsidy-resid">
+                <input-cost>-0.183</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

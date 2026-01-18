@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="coal">
+          <stub-technology name="coal (conv pul ammonia blend 20%)">
+            <period year="2030">
+              <input-tax name="Coal-Ammonia-Blend-Ceiling"/>
+            </period>
+            <period year="2035">
+              <input-tax name="Coal-Ammonia-Blend-Ceiling"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

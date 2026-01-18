@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="gas">
+          <stub-technology name="gas (CC)">
+            <period year="2020">
+              <input-tax name="Gas-Ceiling"/>
+            </period>
+            <period year="2025">
+              <input-tax name="Gas-Ceiling"/>
+            </period>
+            <period year="2030">
+              <input-tax name="Gas-Ceiling"/>
+            </period>
+            <period year="2035">
+              <input-tax name="Gas-Ceiling"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (steam/CT)">
+            <period year="2020">
+              <input-tax name="Gas-Ceiling"/>
+            </period>
+            <period year="2025">
+              <input-tax name="Gas-Ceiling"/>
+            </period>
+            <period year="2030">
+              <input-tax name="Gas-Ceiling"/>
+            </period>
+            <period year="2035">
+              <input-tax name="Gas-Ceiling"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

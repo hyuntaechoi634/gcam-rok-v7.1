@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <AgSupplySector name="Rice" nocreate="1">
+        <AgSupplySubsector name="Rice_Korea" nocreate="1">
+          <AgProductionTechnology name="Rice_Korea_IRR_hi" nocreate="1">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.02382</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00109</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.02382</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00109</emiss-coef>
+              </Non-CO2>
+            </period>
+          </AgProductionTechnology>
+          <AgProductionTechnology name="Rice_Korea_IRR_lo" nocreate="1">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.02382</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00109</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.02382</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00109</emiss-coef>
+              </Non-CO2>
+            </period>
+          </AgProductionTechnology>
+          <AgProductionTechnology name="Rice_Korea_RFD_hi" nocreate="1">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.02382</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00109</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.02382</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00109</emiss-coef>
+              </Non-CO2>
+            </period>
+          </AgProductionTechnology>
+          <AgProductionTechnology name="Rice_Korea_RFD_lo" nocreate="1">
+            <period year="2030">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.02382</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00109</emiss-coef>
+              </Non-CO2>
+            </period>
+            <period year="2035">
+              <Non-CO2 name="CH4_AGR">
+                <emiss-coef>0.02382</emiss-coef>
+              </Non-CO2>
+              <Non-CO2 name="N2O_AGR">
+                <emiss-coef>0.00109</emiss-coef>
+              </Non-CO2>
+            </period>
+          </AgProductionTechnology>
+        </AgSupplySubsector>
+      </AgSupplySector>
+    </region>
+  </world>
+</scenario>

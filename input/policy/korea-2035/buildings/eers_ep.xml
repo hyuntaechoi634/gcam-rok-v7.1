@@ -1,0 +1,1321 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="comm cooling">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm heating">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm others">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d1">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d10">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d2">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d3">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d4">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d5">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d6">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d7">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d8">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid cooling modern_d9">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d1">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d10">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d2">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d3">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d4">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d5">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d6">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d7">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d8">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d9">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d1">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d10">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d2">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d3">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d4">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d5">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d6">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d7">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d8">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d9">
+        <subsector name="electricity">
+          <stub-technology name="EE_electricity">
+            <period year="2020">
+              <fixedOutput>0.0000138</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0001483</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0004087</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0006860</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="EE_gas">
+            <period year="2020">
+              <fixedOutput>0.0000008</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000039</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000100</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000156</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <stub-technology name="EE_refined liquids">
+            <period year="2020">
+              <fixedOutput>0.0000032</fixedOutput>
+            </period>
+            <period year="2025">
+              <fixedOutput>0.0000275</fixedOutput>
+            </period>
+            <period year="2030">
+              <fixedOutput>0.0000586</fixedOutput>
+            </period>
+            <period year="2035">
+              <fixedOutput>0.0000836</fixedOutput>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

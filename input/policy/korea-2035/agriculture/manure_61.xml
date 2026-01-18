@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="Beef">
+                <subsector name="Mixed">
+                    <stub-technology name="FeedCrops">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.095472</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.003502</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.066830</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.002451</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="Pasture_FodderGrass">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.095472</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.003502</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.066830</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.002451</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="Scavenging_Other">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.095472</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.003502</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.066830</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.002451</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="Pastoral">
+                    <stub-technology name="Pasture_FodderGrass">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.095472</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.003502</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.066830</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.002451</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="Scavenging_Other">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.095472</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.003502</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.066830</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.002451</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="Pork">
+                <subsector name="Mixed">
+                    <stub-technology name="FeedCrops">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.034137</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.001257</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.023896</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.000880</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FodderHerb_Residue">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.034137</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.001257</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.023896</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.000880</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="Poultry">
+                <subsector name="Mixed">
+                    <stub-technology name="FeedCrops">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.001789</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.000066</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.001252</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.000046</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="FodderHerb_Residue">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.001252</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.000066</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.001789</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.000046</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="SheepGoat">
+                <subsector name="Mixed">
+                    <stub-technology name="FeedCrops">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.196385</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.007230</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.137470</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.005061</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="Pasture_FodderGrass">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.196385</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.007230</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.137470</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.005061</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="Scavenging_Other">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.196385</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.007230</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.137470</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.005061</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+                <subsector name="Pastoral">
+                    <stub-technology name="Pasture_FodderGrass">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.196385</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.007230</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.137470</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.005061</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                    <stub-technology name="Scavenging_Other">
+                        <period year="2030">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.196385</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.007230</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                        <period year="2035">
+                            <Non-CO2 name="CH4_AGR">
+                                <emiss-coef>0.137470</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                            <Non-CO2 name="N2O_AGR">
+                                <emiss-coef>0.005061</emiss-coef>
+                                <output-driver/>
+                            </Non-CO2>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="carbon-storage">
+        <subsector name="offshore carbon-storage">
+          <stub-technology name="offshore carbon-storage">
+            <period year="2030">
+              <minicam-non-energy-input name="CCS-Storage-Price-Target">
+                <input-cost>-123.1</input-cost>
+              </minicam-non-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-non-energy-input name="CCS-Storage-Price-Target">
+                <input-cost>-125.3</input-cost>
+              </minicam-non-energy-input>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

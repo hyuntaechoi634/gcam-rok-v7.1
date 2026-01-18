@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <ghgpolicy name="CO2">
+        <market>South Korea</market>
+        <fixedTax year="2020">53.2</fixedTax>
+        <fixedTax year="2025">42.8</fixedTax>
+        <fixedTax year="2030">42.8</fixedTax>
+        <fixedTax year="2035">42.8</fixedTax>
+      </ghgpolicy>
+    </region>
+  </world>
+</scenario>

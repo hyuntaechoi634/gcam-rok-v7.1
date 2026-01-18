@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="trn_pass_road_LDV_4W">
+        <subsector name="Car">
+          <stub-technology name="Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2030" delete="1" from-value="1" to-value="1">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <!-- <stub-technology name="Hybrid Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" delete="1" to-value="0">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology> -->
+          <!-- <stub-technology name="NG">
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" delete="1" to-value="0">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology> -->
+        </subsector>
+        <subsector name="Large Car and Truck">
+          <stub-technology name="Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2030" delete="1" from-value="1" to-value="1">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <!-- <stub-technology name="Hybrid Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" delete="1" to-value="0">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="NG">
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" delete="1" to-value="0">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology> -->
+        </subsector>
+      </supplysector>
+      <supplysector name="trn_freight_road">
+        <subsector name="Medium truck">
+          <stub-technology name="Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2015" to-year="2030" delete="1" from-value="1" to-value="1">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <!-- <stub-technology name="Hybrid Liquids">
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" delete="1" to-value="0">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+          <stub-technology name="NG">
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" delete="1" to-value="0">
+                <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+                <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology> -->
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

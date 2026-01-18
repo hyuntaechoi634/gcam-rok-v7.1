@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="iron and steel">
+        <subsector name="BLASTFUR">
+          <interpolation-rule apply-to="share-weight" delete="1" from-year="2030" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2035" to-year="2055" from-value="0" to-value="0">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <share-weight fillout="1" year="2040">0</share-weight>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

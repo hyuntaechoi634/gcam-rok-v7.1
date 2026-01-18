@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="South Korea">
+            <ghgpolicy name="Global-Methane-Pledge">
+                <market>CH4KR</market>
+                <constraint year="2030">24.9</constraint>
+                <constraint year="2035">19.6</constraint>
+            </ghgpolicy>
+        </region>
+    </world>
+</scenario>
