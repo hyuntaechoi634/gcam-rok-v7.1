@@ -7,10 +7,10 @@
                     <totalPop>51684</totalPop>
                 </populationMiniCAM>
                 <populationMiniCAM year="2030">
-                    <totalPop>51949</totalPop>
+                    <totalPop>51305</totalPop>
                 </populationMiniCAM>
                 <populationMiniCAM year="2035">
-                    <totalPop>52209</totalPop>
+                    <totalPop>50824</totalPop>
                 </populationMiniCAM>
             </demographics>
             <nationalAccountContainer>
@@ -18,10 +18,10 @@
                     <GDP>1107523</GDP>
                 </nationalAccount>
                 <nationalAccount year="2030">
-                    <GDP>1217062</GDP>
+                    <GDP>1178545</GDP>
                 </nationalAccount>
                 <nationalAccount year="2035">
-                    <GDP>1311205</GDP>
+                    <GDP>1202943</GDP>
                 </nationalAccount>
             </nationalAccountContainer>
         </region>

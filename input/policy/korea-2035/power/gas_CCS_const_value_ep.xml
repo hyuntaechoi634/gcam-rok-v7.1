@@ -2,11 +2,11 @@
 <scenario>
   <world>
     <region name="South Korea">
-      <policy-portfolio-standard name="Coal-CCS-Ceiling">
+      <policy-portfolio-standard name="Gas-CCS-Ceiling">
         <policyType>tax</policyType>
         <market>South Korea</market>
-        <constraint year="2030">0.030</constraint>
-        <constraint year="2035">0.063</constraint>
+        <constraint year="2030">0.015</constraint>
+        <constraint year="2035">0.030</constraint>
       </policy-portfolio-standard>
     </region>
   </world>

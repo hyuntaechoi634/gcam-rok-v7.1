@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035_v5</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -145,6 +145,8 @@
 		<Value name="gas-ceiling-techs">../input/policy/korea-2035/power/gas_const_techs.xml</Value>
 		<Value name="gas-exo-shutdown">../input/policy/korea-2035/power/gas_shutdown.xml</Value>
 		<Value name="gas-turnoff">../input/policy/korea-2035/power/gas_turnoff.xml</Value>
+		<!-- <Value name="gas-CCS-ceiling">../input/policy/korea-2035/power/gas_CCS_const_value_ep.xml</Value> -->
+		<!-- <Value name="gas-CCS-techs">../input/policy/korea-2035/power/gas_CCS_const_techs_ep.xml</Value>		 -->
 
 		<!-- Oil -->
 		<Value name="oil-turnoff">../input/policy/korea-2035/power/oil_turnoff_2025.xml</Value>
@@ -158,10 +160,14 @@
 		<Value name="grid-building">../input/policy/korea-2035/power/grid_building.xml</Value>
 		<Value name="offwind-floor-value">../input/policy/korea-2035/power/offwind_const_value_cp.xml</Value>
 		<Value name="offwind-floor-techs">../input/policy/korea-2035/power/offwind_const_techs.xml</Value>
-		<Value name="onwind-floor-value">../input/policy/korea-2035/power/onwind_const_value.xml</Value>
+		<Value name="onwind-floor-value">../input/policy/korea-2035/power/onwind_const_value_cp.xml</Value>
 		<Value name="onwind-floor-techs">../input/policy/korea-2035/power/onwind_const_techs.xml</Value>
 		<Value name="solar-floor-value">../input/policy/korea-2035/power/solar_const_value_cp.xml</Value>
-		<Value name="solar-fllor-techs">../input/policy/korea-2035/power/solar_const_techs.xml</Value>
+		<Value name="solar-floor-techs">../input/policy/korea-2035/power/solar_const_techs.xml</Value>
+		<!-- <Value name="pv-storage-floor-value">../input/policy/korea-2035/power/other_pv_const_value_ep.xml</Value> -->
+		<!-- <Value name="pv-storage-floor-techs">../input/policy/korea-2035/power/other_pv_const_techs_ep.xml</Value> -->
+		<!-- <Value name="wind-storage-floor-value">../input/policy/korea-2035/power/other_wind_const_value_ep.xml</Value> -->
+		<!-- <Value name="wind-storage-floor-techs">../input/policy/korea-2035/power/other_wind_const_techs_ep.xml</Value> -->
 
 		<!-- Industry -->
 
@@ -188,7 +194,11 @@
 		<!-- CCUS Storage -->
 		<!-- <Value name="ccus-storage-subsidy">../input/policy/korea-2035/industry/ccus_storage_ep.xml</Value> -->
 
-		<!-- CBAM -->
+		<!-- Competitiveness Erosion -->
+		<Value name="competitiveness-erosion">../input/policy/korea-2035/industry/competitiveness_erosion.xml</Value> 
+
+		<!-- <Value name="AI-demand-technology">../input/policy/korea-2035/industry/elec_demand_AI_technology.xml</Value> -->
+		<!-- <Value name="AI-demand-fixedOutput">../input/policy/korea-2035/industry/elec_demand_AI_fixedOutput.xml</Value> -->
 
 		<!-- Transportation -->
 		<Value name="ZEV-calibrate">../input/policy/korea-2035/transportation/ZEV_calibrate.xml</Value>
@@ -197,7 +207,8 @@
 		<!-- <Value name="ICEV-sales-ban">../input/policy/korea-2035/transportation/ICEV_turnoff.xml</Value> -->
 		<!-- <Value name="ICEV-sales-ban">../input/policy/korea-2035/transportation/Bus_ICEV_turnoff.xml</Value> -->
 		<Value name="fuel-economy-standards">../input/policy/korea-2035/transportation/cafe_cp.xml</Value>
-		<Value name="fuel-economy-standards">../input/policy/korea-2035/transportation/diesel_retirement_cp.xml</Value>
+		<Value name="early-retirement">../input/policy/korea-2035/transportation/diesel_retirement_cp.xml</Value>
+		<Value name="aeei-vkt-reduction">../input/policy/korea-2035/transportation/aeei_VKT_cp.xml</Value>
 		<!-- Greenship K (cp) already reflected in <Value name = "transportation">../input/gcamdata/xml/transportation_UCD_CORE_cp.xml</Value>  -->
 
 		<!-- Buildings -->

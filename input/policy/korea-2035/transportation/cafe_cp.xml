@@ -2,30 +2,6 @@
 <scenario>
   <world>
     <region name="South Korea">
-      <supplysector name="trn_freight_road">
-        <tranSubsector name="Medium truck">
-          <stub-technology name="Liquids">
-            <period year="2025">
-              <minicam-energy-input name="refined liquids enduse">
-                <coefficient>1370.1064312</coefficient>
-                <market-name>South Korea</market-name>
-              </minicam-energy-input>
-            </period>
-          </stub-technology>
-        </tranSubsector>
-      </supplysector>
-      <supplysector name="trn_pass_road">
-        <tranSubsector name="Bus">
-          <stub-technology name="Liquids">
-            <period year="2025">
-              <minicam-energy-input name="refined liquids enduse">
-                <coefficient>4999.5868604</coefficient>
-                <market-name>South Korea</market-name>
-              </minicam-energy-input>
-            </period>
-          </stub-technology>
-        </tranSubsector>
-      </supplysector>
       <supplysector name="trn_pass_road_LDV_4W">
         <tranSubsector name="Car">
           <stub-technology name="Liquids">
@@ -37,47 +13,19 @@
             </period>
             <period year="2025">
               <minicam-energy-input name="refined liquids enduse">
-                <coefficient>2040.1</coefficient>
+                <coefficient>2364</coefficient>
                 <market-name>South Korea</market-name>
               </minicam-energy-input>
             </period>
             <period year="2030">
               <minicam-energy-input name="refined liquids enduse">
-                <coefficient>1699.4</coefficient>
+                <coefficient>2282</coefficient>
                 <market-name>South Korea</market-name>
               </minicam-energy-input>
             </period>
             <period year="2035">
               <minicam-energy-input name="refined liquids enduse">
-                <coefficient>1415.6</coefficient>
-                <market-name>South Korea</market-name>
-              </minicam-energy-input>
-            </period>
-          </stub-technology>
-        </tranSubsector>
-        <tranSubsector name="Large Car and Truck">
-          <stub-technology name="Liquids">
-            <period year="2020">
-              <minicam-energy-input name="elect_td_trn">
-                <coefficient>1039.9009244</coefficient>
-                <market-name>South Korea</market-name>
-              </minicam-energy-input>
-            </period>
-            <period year="2025">
-              <minicam-energy-input name="elect_td_trn">
-                <coefficient>970.2</coefficient>
-                <market-name>South Korea</market-name>
-              </minicam-energy-input>
-            </period>
-            <period year="2030">
-              <minicam-energy-input name="elect_td_trn">
-                <coefficient>905.2</coefficient>
-                <market-name>South Korea</market-name>
-              </minicam-energy-input>
-            </period>
-            <period year="2035">
-              <minicam-energy-input name="elect_td_trn">
-                <coefficient>844.6</coefficient>
+                <coefficient>2204</coefficient>
                 <market-name>South Korea</market-name>
               </minicam-energy-input>
             </period>

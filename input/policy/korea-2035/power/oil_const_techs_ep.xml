@@ -3,21 +3,21 @@
   <world>
     <region name="South Korea">
       <supplysector name="electricity">
-        <subsector name="coal">
-          <stub-technology name="coal (conv pul CCS)">
+        <subsector name="refined liquids">
+          <stub-technology name="refined liquids (CC)">
             <period year="2030">
-              <input-tax name="Coal-CCS-Ceiling"/>
+              <input-tax name="Oil-Ceiling"/>
             </period>
             <period year="2035">
-              <input-tax name="Coal-CCS-Ceiling"/>
+              <input-tax name="Oil-Ceiling"/>
             </period>
           </stub-technology>
-          <stub-technology name="coal (IGCC CCS)">
+          <stub-technology name="refined liquids (steam/CT)">
             <period year="2030">
-              <input-tax name="Coal-CCS-Ceiling"/>
+              <input-tax name="Oil-Ceiling"/>
             </period>
             <period year="2035">
-              <input-tax name="Coal-CCS-Ceiling"/>
+              <input-tax name="Oil-Ceiling"/>
             </period>
           </stub-technology>
         </subsector>

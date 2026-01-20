@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="wind">
+          <stub-technology name="wind_storage">
+            <period year="2030">
+              <input-subsidy name="Wind-Storage-Floor"/>
+            </period>
+            <period year="2035">
+              <input-subsidy name="Wind-Storage-Floor"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+    </region>
+  </world>
+</scenario>

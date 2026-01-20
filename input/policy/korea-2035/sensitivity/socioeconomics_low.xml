@@ -4,24 +4,24 @@
         <region name="South Korea">
             <demographics>
                 <populationMiniCAM year="2025">
-                    <totalPop>51448</totalPop>
+                    <totalPop>51684</totalPop>
                 </populationMiniCAM>
                 <populationMiniCAM year="2030">
-                    <totalPop>48390</totalPop>
+                    <totalPop>50690</totalPop>
                 </populationMiniCAM>
                 <populationMiniCAM year="2035">
-                    <totalPop>45476</totalPop>
+                    <totalPop>49470</totalPop>
                 </populationMiniCAM>
             </demographics>
             <nationalAccountContainer>
                 <nationalAccount year="2025">
-                    <GDP>1120752</GDP>
+                    <GDP>1107523</GDP>
                 </nationalAccount>
                 <nationalAccount year="2030">
-                    <GDP>1156996</GDP>
+                    <GDP>1139369</GDP>
                 </nationalAccount>
                 <nationalAccount year="2035">
-                    <GDP>1194324</GDP>
+                    <GDP>1112932</GDP>
                 </nationalAccount>
             </nationalAccountContainer>
         </region>

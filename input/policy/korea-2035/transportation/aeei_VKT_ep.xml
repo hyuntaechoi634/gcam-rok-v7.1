@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <!-- 「소형승용 화물 자동차 온실가스 관리제도 개선 연구(II)」최종보고서 -->
+      <energy-final-demand name="trn_pass">
+        <final-energy-consumer>
+          <aeei year="2020">0.0058</aeei>
+          <aeei year="2025">0.0058</aeei>
+          <aeei year="2030">0.0058</aeei>
+          <aeei year="2035">0.0089</aeei>
+        </final-energy-consumer>
+      </energy-final-demand>
+    </region>
+  </world>
+</scenario>
