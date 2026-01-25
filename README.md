@@ -1,69 +1,86 @@
-# Global Change Analysis Model (GCAM)
+# High Ambition Korea 2035 – A Replication Package
 
-The Joint Global Change Research Institute (JGCRI) is the home and
-primary development institution for GCAM, an integrated assessment
-tool for exploring consequences and responses to global
-change. Climate change is a global issue that impacts all regions of
-the world and all sectors of the global economy. Thus, any responses
-to the threat of climate change, such as policies or international
-agreements to limit greenhouse gas emissions, can have wide ranging
-consequences throughout the energy system as well as on land use and
-land cover. Integrated assessment models endeavor to represent all
-world regions and all sectors of the economy in an economic framework
-in order to explore interactions between sectors and understand the
-potential ramifications of climate mitigation actions.
+This repository provides the scenario configurations and policy input files accompanying:
 
-GCAM has been developed at PNNL for over 20 years and is now a freely
-available community model and documented online (See below). The team
-at JGCRI is comprised of economists, engineers, energy experts, forest
-ecologists, agricultural scientists, and climate system scientists who
-develop the model and apply it to a range of science and policy
-questions and work closely with Earth system and ecosystem modelers to
-integrate the human decision components of GCAM into their analyses.
+> Choi, H., Park, S., & McJeon, H. *High-ambition climate action in all sectors can achieve a 58% greenhouse gas emissions reduction in Korea by 2035*. [Working Paper / Preprint link]
 
-## Model Overview
+## Contact
+- **Hyuntae Choi** – [chti0265@snu.ac.kr](mailto:chti0265@snu.ac.kr)  
+- **Haewon McJeon** – [hmcjeon@kaist.ac.kr](mailto:hmcjeon@kaist.ac.kr)  
+- **Sangin Park** – [sanpark@snu.ac.kr](mailto:sanpark@snu.ac.kr)  
 
-GCAM is a dynamic-recursive model with technology-rich representations
-of the economy, energy sector, land use and water linked to a climate
-model that can be used to explore climate change mitigation policies
-including carbon taxes, carbon trading, regulations and accelerated
-deployment of energy technology. Regional population and labor
-productivity growth assumptions drive the energy and land-use systems
-employing numerous technology options to produce, transform, and
-provide energy services as well as to produce agriculture and forest
-products, and to determine land use and land cover. Using a run period
-extending from 1990 – 2100 at 5 year intervals, GCAM has been used to
-explore the potential role of emerging energy supply technologies and
-the greenhouse gas consequences of specific policy measures or energy
-technology adoption including; CO2 capture and storage, bioenergy,
-hydrogen systems, nuclear energy, renewable energy technology, and
-energy use technology in buildings, industry and the transportation
-sectors. GCAM is an Representative Concentration Pathway (RCP)-class
-model. This means it can be used to simulate scenarios, policies, and
-emission targets from various sources including the Intergovernmental
-Panel on Climate Change (IPCC). Output includes projections of future
-energy supply and demand and the resulting greenhouse gas emissions,
-radiative forcing and climate effects of 16 greenhouse gases, aerosols
-and short-lived species at 0.5×0.5 degree resolution, contingent on
-assumptions about future population, economy, technology, and climate
-mitigation policy.
+---
 
-## Documentation
+## Repository Structure
 
-* [GCAM Documentation](http://jgcri.github.io/gcam-doc/)
-* [Getting Started with GCAM](http://jgcri.github.io/gcam-doc/user-guide.html)
-* [GCAM Community](https://gcims.pnnl.gov/community)
-* [GCAM Videos and Tutorial Slides](https://gcims.pnnl.gov/community)
-* [GCAM Citation and Co-authorship Guidelines](http://jgcri.github.io/gcam-doc/community-guide.html)
+| Directory / File | Description |
+|------------------|-------------|
+| `exe/` | Scenario configuration files for GCAM model runs |
+| ├─ `configuration_Current_Policies_Med.xml` | Main configuration for the *Current Policies* scenario under medium-range emissions assumptions |
+| ├─ `configuration_High_Ambition_Med.xml` | Main configuration for the *High Ambition* scenario under medium-range emissions assumptions |
+| ├─ `configuration_Current_Policies_Low.xml` | Sensitivity configuration for the *Current Policies* scenario under low-emissions assumptions |
+| ├─ `configuration_High_Ambition_Low.xml` | Sensitivity configuration for the *High Ambition* scenario under low-emissions assumptions |
+| ├─ `configuration_Current_Policies_High.xml` | Sensitivity configuration for the *Current Policies* scenario under high-emissions assumptions |
+| ├─ `configuration_High_Ambition_High.xml` | Sensitivity configuration for the *High Ambition* scenario under high-emissions assumptions |
+| ├─ `configuration_High_Ambition_Med_CPO2040.xml` | *High Ambition* scenario with coal phase-out extended to 2040 under medium-range emissions assumptions |
+| ├─ `configuration_High_Ambition_Med_AI.xml` | *High Ambition* scenario with AI-driven electricity demand increase under medium-range emissions assumptions |
+| `input/policy/korea-2035/` | Sectoral policy input files for Korea’s 2035 mitigation scenarios |
 
-## Selected Publications
+---
 
-Calvin, K., Patel, P., Clarke, L., Asrar, G., Bond-Lamberty, B., Cui, R. Y., Di Vittorio, A., Dorheim, K., Edmonds, J., Hartin, C., Hejazi, M., Horowitz, R., Iyer, G., Kyle, P., Kim, S., Link, R., McJeon, H., Smith, S. J., Snyder, A., Waldhoff, S., and Wise, M.: GCAM v5.1: representing the linkages between energy, water, land, climate, and economic systems, Geosci. Model Dev., 12, 677–698, https://doi.org/10.5194/gmd-12-677-2019, 2019.
+## Prerequisites
 
-Edmonds, J., and J. Reilly (1985)Global Energy: Assessing the Future (Oxford University Press, New York) pp.317.
+- **[GCAM v7.1](https://github.com/JGCRI/gcam-core/releases)** – Base model for GCAM-ROK
 
-Edmonds, J., M. Wise, H. Pitcher, R. Richels, T. Wigley, and C. MacCracken. (1997) “An Integrated Assessment of Climate Change and the Accelerated Introduction of Advanced Energy Technologies”, Mitigation and Adaptation Strategies for Global Change, 1, pp. 311-39
+---
 
-Kim, S.H., J. Edmonds, J. Lurz, S. J. Smith, and M. Wise (2006) “The ObjECTS Framework for Integrated Assessment: Hybrid Modeling of Transportation ” Energy Journal (Special Issue #2) pp 51-80.
+## Installation & Usage
 
-[Full list of GCAM publications](http://jgcri.github.io/gcam-doc/references.html)
+### 1. Install GCAM v7.1
+
+Download [GCAM v7.1](https://github.com/JGCRI/gcam-core/releases) and install it in a directory separate from this repository.  
+Reference installation guides:  
+- [Windows](https://www.youtube.com/watch?v=2Tv-5rryhk8) – P. Patel  
+- [MacOS](https://www.youtube.com/watch?v=AQnm_qZmypA) – P. Patel  
+- [GCAM Build Instructions for Linux](https://jgcri.github.io/gcam-doc/gcam-build.html)
+
+---
+
+### 2. Attach Policy Input Files
+
+- Copy the `./input/policy/korea-2035/` folder into the `input` folder of your GCAM installation.
+- Download the required GCAM XML input files from the following folder:
+  https://drive.google.com/drive/folders/1WRlMSj8AzUgIrtq0SrSJqcSE6OKhmm2C?usp=sharing
+
+  This folder contains all base and Korea-specific XML inputs required to run the scenarios.
+  Place all contents into:
+  `input/gcamdata/xml/`
+
+### 3. Run Scenarios
+
+Navigate to the `exe` directory in your GCAM v7.1 installation.
+
+Example (Windows PowerShell):
+
+```powershell
+.\gcam.exe -C configuration_Current_Policies_Med.xml
+.\gcam.exe -C configuration_High_Ambition_Med.xml
+
+```
+
+Example (Linux/Mac):
+```bash
+./gcam -C configuration_Current_Policies_Med.xml
+./gcam -C configuration_High_Ambition_Med.xml
+```
+
+## Citation
+If you use this package in your work, please cite:
+```text
+Choi, H., Park, S., & McJeon, H. (2025).
+High-ambition climate action in all sectors can achieve a 60% greenhouse gas emissions reduction in Korea by 2035. Working Paper.
+[Preprint link or DOI]
+```
+
+## License
+[MIT License](https://opensource.org/licenses/MIT) – You are free to use, modify, and distribute this code with attribution.
