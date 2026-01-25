@@ -78,7 +78,7 @@ Example (Linux/Mac):
 If you use this package in your work, please cite:
 ```text
 Choi, H., Park, S., & McJeon, H. (2025).
-High-ambition climate action in all sectors can achieve a 60% greenhouse gas emissions reduction in Korea by 2035. Working Paper.
+High-ambition climate action in all sectors can achieve a 58% greenhouse gas emissions reduction in Korea by 2035. Working Paper.
 [Preprint link or DOI]
 ```
 
