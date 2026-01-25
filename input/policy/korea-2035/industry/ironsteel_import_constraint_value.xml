@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+   <world>
+      <region name="South Korea">
+         <policy-portfolio-standard name="Import-Ceiling">
+            <policyType>tax</policyType>
+            <market>South Korea</market>
+            <constraint year="2020">12.4</constraint>
+   	   </policy-portfolio-standard>
+      </region>
+   </world>
+</scenario>

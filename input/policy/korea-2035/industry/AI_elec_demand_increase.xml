@@ -1,0 +1,24 @@
+<?xml version="1.0" ?><scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="electricity_net_ownuse">
+                <subsector name="electricity_net_ownuse">
+                    <stub-technology name="electricity_net_ownuse">
+                        <period year="2030">
+                            <minicam-energy-input name="electricity">
+                                <coefficient>1.116</coefficient>
+                                <market-name>South Korea</market-name>
+                            </minicam-energy-input>
+                        </period>
+                        <period year="2035">
+                            <minicam-energy-input name="electricity">
+                                <coefficient>1.135</coefficient>
+                                <market-name>South Korea</market-name>
+                            </minicam-energy-input>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

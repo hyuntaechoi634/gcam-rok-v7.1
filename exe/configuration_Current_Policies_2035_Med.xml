@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035_v5</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035_v7</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -29,7 +29,8 @@
 		<Value name = "other_industry">../input/gcamdata/xml/other_industry.xml</Value>
 		<Value name = "industry_income_elas">../input/gcamdata/xml/other_industry_incelas_gssp2.xml</Value>
  		<Value name = "iron_steel">../input/gcamdata/xml/iron_steel.xml</Value>
-		<Value name = "iron_steel_income_elas">../input/gcamdata/xml/iron_steel_incelas_gssp2.xml</Value>   
+		<!-- <Value name = "iron_steel_income_elas">../input/gcamdata/xml/iron_steel_incelas_gssp2.xml</Value>  -->
+		<Value name = "iron_steel_income_elas">../input/gcamdata/xml/iron_steel_incelas_gssp2_ROK.xml</Value>   
 		<Value name = "iron_steel trade">../input/gcamdata/xml/iron_steel_trade.xml</Value>
  		<Value name = "Off_road">../input/gcamdata/xml/Off_road.xml</Value>
 		<Value name = "Off_road_income_elas">../input/gcamdata/xml/Off_road_incelas_gssp2.xml</Value>  
@@ -160,7 +161,7 @@
 		<Value name="grid-building">../input/policy/korea-2035/power/grid_building.xml</Value>
 		<Value name="offwind-floor-value">../input/policy/korea-2035/power/offwind_const_value_cp.xml</Value>
 		<Value name="offwind-floor-techs">../input/policy/korea-2035/power/offwind_const_techs.xml</Value>
-		<Value name="onwind-floor-value">../input/policy/korea-2035/power/onwind_const_value_cp.xml</Value>
+		<Value name="onwind-floor-value">../input/policy/korea-2035/power/onwind_const_value.xml</Value>
 		<Value name="onwind-floor-techs">../input/policy/korea-2035/power/onwind_const_techs.xml</Value>
 		<Value name="solar-floor-value">../input/policy/korea-2035/power/solar_const_value_cp.xml</Value>
 		<Value name="solar-floor-techs">../input/policy/korea-2035/power/solar_const_techs.xml</Value>
@@ -168,6 +169,9 @@
 		<!-- <Value name="pv-storage-floor-techs">../input/policy/korea-2035/power/other_pv_const_techs_ep.xml</Value> -->
 		<!-- <Value name="wind-storage-floor-value">../input/policy/korea-2035/power/other_wind_const_value_ep.xml</Value> -->
 		<!-- <Value name="wind-storage-floor-techs">../input/policy/korea-2035/power/other_wind_const_techs_ep.xml</Value> -->
+
+		<!-- RPS -->
+		<!-- <Value name="RPS">../input/policy/korea-2035/power/RPS_cp.xml</Value> -->
 
 		<!-- Industry -->
 
@@ -183,6 +187,12 @@
 		<Value name="iron-steel-korea">../input/policy/korea-2035/industry/iron_steel_korea.xml</Value>
 		<Value name="iron-steel-policy">../input/policy/korea-2035/industry/iron_steel_cp.xml</Value>
 		<Value name="section-232-tariff">../input/policy/korea-2035/industry/iron_steel_tariff.xml</Value>
+		<Value name="iron-steel-import-const-value">../input/policy/korea-2035/industry/ironsteel_import_constraint_value.xml</Value>
+		<Value name="iron-steel-import-const-techs">../input/policy/korea-2035/industry/ironsteel_import_constraint_techs.xml</Value>
+		<Value name="iron-steel-export-const-value">../input/policy/korea-2035/industry/ironsteel_export_constraint_value.xml</Value>
+		<Value name="iron-steel-export-const-techs">../input/policy/korea-2035/industry/ironsteel_export_constraint_techs.xml</Value>
+		<!-- <Value name="iron-steel-scrap-const-value">../input/policy/korea-2035/industry/ironsteel_scrap_constraint_value_ep.xml</Value>
+		<Value name="iron-steel-scrap-const-techs">../input/policy/korea-2035/industry/ironsteel_scrap_constraint_techs.xml</Value> -->
 
 		<!-- Chemicals -->
 		<!-- <Value name="chemical-fuel-substitution">../input/policy/korea-2035/industry/chemical_fuel_substitution.xml</Value> -->
@@ -196,9 +206,6 @@
 
 		<!-- Competitiveness Erosion -->
 		<Value name="competitiveness-erosion">../input/policy/korea-2035/industry/competitiveness_erosion.xml</Value> 
-
-		<!-- <Value name="AI-demand-technology">../input/policy/korea-2035/industry/elec_demand_AI_technology.xml</Value> -->
-		<!-- <Value name="AI-demand-fixedOutput">../input/policy/korea-2035/industry/elec_demand_AI_fixedOutput.xml</Value> -->
 
 		<!-- Transportation -->
 		<Value name="ZEV-calibrate">../input/policy/korea-2035/transportation/ZEV_calibrate.xml</Value>
@@ -219,17 +226,18 @@
 		<Value name="h2-subsidy-resid">../input/policy/korea-2035/buildings/h2_subsidy_resid_cp.xml</Value>
 		<Value name="pv-subsidy-comm">../input/policy/korea-2035/buildings/pv_subsidy_comm_cp.xml</Value>
 		<Value name="pv-subsidy-resid">../input/policy/korea-2035/buildings/pv_subsidy_resid_cp.xml</Value>
-		<!-- <Value name="fossil-heating-phaseout">../input/policy/korea-2035/buildings/electrification_2035_turnoff.xml</Value> -->
-		<!-- ZEB mandate are implemented through building_det_ep.xml -->
+		<!-- <Value name="fossil-heating-phaseout">../input/policy/korea-2035/buildings/heatpump_replacement_2035.xml</Value> -->
+		<!-- ZEB mandate are implemented through building_det_cp.xml -->
 
 		<!-- Agriculture -->
 		<Value name="ID-AWD">../input/policy/korea-2035/agriculture/water_management_cp.xml</Value>
+		<Value name="smartfarm-spreadout">../input/policy/korea-2035/agriculture/an_smartfarm_spreadout_cp.xml</Value>
 		<!-- <Value name="manure-reduction">../input/policy/korea-2035/agriculture/N_fert_reduction.xml</Value> -->
 		<!-- <Value name="entaric-fermentation">../input/policy/korea-2035/agriculture/an_ent_ferm_ep_test.xml</Value> -->
 
 		<!-- Others -->
 		<!-- <Value name="clean-hydrogen-credit">../input/policy/korea-2035/other/clean_hydrogen_credit.xml</Value> -->
-		<Value name="waste-management">../input/policy/korea-2035/other/waste_management_ep.xml</Value>
+		<Value name="waste-management">../input/policy/korea-2035/other/waste_management_cp.xml</Value>
 		<!-- <Value name="Kigali-const">../input/policy/korea-2035/other/Kigali_constraint.xml</Value> -->
 		<!-- <Value name="Kigali-link-ghg">../input/policy/korea-2035/other/HFCs_linked_ghg_policy.xml</Value> -->
 		<!-- <Value name="Methane-link-ghg">../input/policy/korea-2035/other/methane_constraint.xml</Value> -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+<world>
+    <region name="USA">
+        <supplysector name="traded iron and steel">
+            <subsector name="South Korea traded iron and steel">
+                <stub-technology name="South Korea traded iron and steel">
+                    <period year="2020">
+                        <input-subsidy name="Export-Floor"/>
+                    </period>
+                </stub-technology>
+            </subsector>
+	    </supplysector>
+      </region>
+   </world>
+</scenario>

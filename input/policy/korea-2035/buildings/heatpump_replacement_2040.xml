@@ -1,0 +1,628 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="resid heating coal_d1">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating coal_d2">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating coal_d3">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating coal_d4">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating coal_d5">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating coal_d6">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating coal_d7">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating coal_d8">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating coal_d9">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating coal_d10">
+        <subsector name="coal">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d1">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d2">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d3">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d4">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d5">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d6">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d7">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d8">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d9">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid heating modern_d10">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <!-- <supplysector name="resid others modern_d1">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d2">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d3">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d4">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d5">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d6">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d7">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d8">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d9">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <supplysector name="resid others modern_d10">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector> -->
+      <supplysector name="comm heating">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector>
+      <!-- <supplysector name="comm cooling">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <supplysector name="comm others">
+        <subsector name="gas">
+          <stub-technology name="gas">
+            <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+              <interpolation-function name="linear"/>
+            </interpolation-rule>
+            <interpolation-rule apply-to="share-weight" from-year="2030" to-year="2040" from-value="0" to-value="0">
+              <interpolation-function name="fixed"/>
+            </interpolation-rule>
+          </stub-technology>
+        </subsector>
+        <subsector name="refined liquids">
+          <interpolation-rule apply-to="share-weight" from-year="2015" delete="1" to-year="2030" to-value="1">
+            <interpolation-function name="fixed"/>
+          </interpolation-rule>
+          <interpolation-rule apply-to="share-weight" from-year="2025" to-year="2040" from-value="1" to-value="0">
+            <interpolation-function name="linear"/>
+          </interpolation-rule>
+        </subsector>
+      </supplysector> -->
+    </region>
+  </world>
+</scenario>

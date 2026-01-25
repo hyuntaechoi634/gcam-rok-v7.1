@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="FoodDemand_NonStaples">
+        
+        <nesting-subsector name="Protein">
+
+          <subsector name="Animal">
+            <stub-technology name="Beef">
+
+            <period year="2025">
+              <minicam-energy-input name="regional beef">
+                <!-- 1.5858244 * 1.014 -->
+                <efficiency>1.61</efficiency>
+              </minicam-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="regional beef">
+                <!-- 1.5858244 * 1.025  -->
+                <efficiency>1.63</efficiency>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="regional beef">
+                <!-- 1.5858244 * 1.035 -->
+                <efficiency>1.64</efficiency>
+              </minicam-energy-input>
+            </period>
+            </stub-technology>
+            <stub-technology name="Dairy">
+              <period year="2025">
+                <minicam-energy-input name="regional dairy">
+                  <!-- 0.7211678 * 1.014 -->
+                  <efficiency>0.73</efficiency>
+                </minicam-energy-input>
+              </period>
+              <period year="2030">
+                <minicam-energy-input name="regional dairy">
+                  <!-- 0.7211678 * 1.025  -->
+                  <efficiency>0.74</efficiency>
+                </minicam-energy-input>
+              </period>
+              <period year="2035">
+                <minicam-energy-input name="regional dairy">
+                  <!-- 0.7211678 * 1.035 -->
+                  <efficiency>0.75</efficiency>
+                </minicam-energy-input>
+              </period>
+
+            </stub-technology>
+
+            <stub-technology name="Pork">
+
+              <period year="2025">
+                <minicam-energy-input name="regional pork">
+                  <!-- 3.0098584 * 1.014 -->
+                  <efficiency>3.05</efficiency>
+                </minicam-energy-input>
+              </period>
+              <period year="2030">
+                <minicam-energy-input name="regional pork">
+                  <!-- 3.0098584 * 1.025  -->
+                  <efficiency>3.09</efficiency>
+                </minicam-energy-input>
+              </period>
+              <period year="2035">
+                <minicam-energy-input name="regional pork">
+                  <!-- 3.0098584 * 1.035 -->
+                  <efficiency>3.12</efficiency>
+                </minicam-energy-input>
+              </period>
+
+            </stub-technology>
+
+            <stub-technology name="Poultry">
+
+              <period year="2025">
+                  <minicam-energy-input name="regional poultry">
+                    <!-- 1.4212283 * 1.014 -->
+                    <efficiency>1.44</efficiency>
+                  </minicam-energy-input>
+              </period>
+              <period year="2030">
+                  <minicam-energy-input name="regional poultry">
+                    <!-- 1.4212283 * 1.025  -->
+                    <efficiency>1.46</efficiency>
+                  </minicam-energy-input>
+              </period>
+              <period year="2035">
+                  <minicam-energy-input name="regional poultry">
+                    <!-- 1.4212283 * 1.035 -->
+                    <efficiency>1.47</efficiency>
+                  </minicam-energy-input>
+              </period>
+
+            </stub-technology>
+
+          </subsector>
+
+        </nesting-subsector>
+
+      </supplysector>
+      
+      <energy-final-demand name="NonFoodDemand_Meat">
+        <final-energy-consumer>
+          <!-- 0.986 ** (1/5) -->
+          <aeei year="2025">0.0029</aeei>
+          <!-- (0.975 / 0.986) ** (1/5) -->
+          <aeei year="2030">0.0023</aeei>
+          <!-- (0.965 / 0.975) ** (1/5) -->
+          <aeei year="2035">0.0021</aeei>
+        </final-energy-consumer>
+      </energy-final-demand>
+
+    </region>
+  </world>
+</scenario>

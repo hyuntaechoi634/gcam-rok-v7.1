@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+<world>
+    <region name="South Korea">
+        <supplysector name="regional iron and steel">
+            <subsector name="imported iron and steel">
+                <stub-technology name="imported iron and steel">
+                    <period year="2020">
+                        <input-tax name="Import-Ceiling"/>
+                    </period>
+                </stub-technology>
+            </subsector>
+	    </supplysector>
+      </region>
+   </world>
+</scenario>

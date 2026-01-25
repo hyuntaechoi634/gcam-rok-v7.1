@@ -1,0 +1,1340 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <supplysector name="electricity">
+        <subsector name="hydro">
+          <stub-technology name="hydro">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="gas">
+          <stub-technology name="gas (CC H2 blend 50%)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <coefficient>0.123</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <coefficient>0.107</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <coefficient>0.370</coefficient>
+              </minicam-energy-input>
+            </period>        
+          </stub-technology>
+        </subsector>
+        <subsector name="coal">
+          <stub-technology name="coal (conv pul ammonia blend 20%)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <coefficient>0.123</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <coefficient>0.307</coefficient>
+              </minicam-energy-input>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <coefficient>0.370</coefficient>
+              </minicam-energy-input>
+            </period>           
+          </stub-technology>
+        </subsector>
+        <subsector name="wind">
+          <stub-technology name="wind_storage">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>2</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>2</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>2</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+          <stub-technology name="wind">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+          <stub-technology name="wind_offshore">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>2</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>2</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>2</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+        <subsector name="solar">
+          <stub-technology name="PV">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+          <stub-technology name="PV_storage">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>2</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>2</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>2</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+      </supplysector>
+      <policy-portfolio-standard name="ELEC_RPS">
+        <market>South Korea RPS</market>
+        <policyType>RES</policyType>
+        <constraint fillout="1" year="2025">1</constraint>
+      </policy-portfolio-standard>
+      <pass-through-sector name="elec_coal (conv pul)">
+        <subsector name="coal (conv pul)">
+          <stub-technology name="coal (conv pul) (once through)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal (conv pul) (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal (conv pul) (recirculating)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal (conv pul) (cooling pond)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal (conv pul) (dry cooling)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_coal (conv pul CCS)">
+        <subsector name="coal (conv pul CCS)">
+          <stub-technology name="coal (conv pul CCS) (dry cooling)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal (conv pul CCS) (once through)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal (conv pul CCS) (recirculating)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal (conv pul CCS) (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_coal (IGCC CCS)">
+        <subsector name="coal (IGCC CCS)">
+          <stub-technology name="coal (IGCC CCS) (dry cooling)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal (IGCC CCS) (recirculating)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="coal (IGCC CCS) (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_gas (steam/CT)">
+        <subsector name="gas (steam/CT)">
+          <stub-technology name="gas (steam/CT) (once through)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (steam/CT) (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (steam/CT) (recirculating)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (steam/CT) (cooling pond)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (steam/CT) (dry cooling)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_gas (CC CCS)">
+        <subsector name="gas (CC CCS)">
+          <stub-technology name="gas (CC CCS) (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (CC CCS) (recirculating)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (CC CCS) (dry cooling)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_gas (CC)">
+        <subsector name="gas (CC)">
+          <stub-technology name="gas (CC) (once through)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (CC) (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (CC) (recirculating)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (CC) (cooling pond)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="gas (CC) (dry cooling)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_refined liquids (steam/CT)">
+        <subsector name="refined liquids (steam/CT)">
+          <stub-technology name="refined liquids (steam/CT) (once through)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids (steam/CT) (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids (steam/CT) (recirculating)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids (steam/CT) (cooling pond)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids (steam/CT) (dry cooling)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_refined liquids (CC)">
+        <subsector name="refined liquids (CC)">
+          <stub-technology name="refined liquids (CC) (dry cooling)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids (CC) (recirculating)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="refined liquids (CC) (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_biomass (IGCC)">
+        <subsector name="biomass (IGCC)">
+          <stub-technology name="biomass (IGCC) (recirculating)">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass (IGCC) (seawater)">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass (IGCC) (dry cooling)">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_biomass (conv)">
+        <subsector name="biomass (conv)">
+          <stub-technology name="biomass (conv) (once through)">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass (conv) (seawater)">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass (conv) (recirculating)">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass (conv) (cooling pond)">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+          <stub-technology name="biomass (conv) (dry cooling)">
+            <period year="2025">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2030">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+            <period year="2035">
+              <res-secondary-output name="ELEC_RPS">
+                <output-ratio>1</output-ratio>
+              </res-secondary-output>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_Gen_II_LWR">
+        <subsector name="Gen_II_LWR">
+          <stub-technology name="Gen_II_LWR (once through)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="Gen_II_LWR (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="Gen_II_LWR (recirculating)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+          <stub-technology name="Gen_II_LWR (cooling pond)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+      <pass-through-sector name="elec_Gen_III">
+        <subsector name="Gen_III">
+          <stub-technology name="Gen_III (seawater)">
+            <period year="2025">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2025">0.123</current-coef>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2030">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2030">0.307</current-coef>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+            <period year="2035">
+              <minicam-energy-input name="ELEC_RPS">
+                <market-name>South Korea</market-name>
+                <current-coef year="2035">0.370</current-coef>
+              </minicam-energy-input>
+              <CO2 name="CO2"/>
+            </period>
+          </stub-technology>
+        </subsector>
+      </pass-through-sector>
+    </region>
+  </world>
+</scenario>

@@ -5,7 +5,8 @@
       <supplysector name="traded iron and steel">
         <subsector name="South Korea traded iron and steel">
           <relative-cost-logit>
-              <logit-exponent fillout="1" year="2020">-1</logit-exponent>
+              <logit-exponent fillout="1" year="2020">0</logit-exponent>
+              <logit-exponent fillout="1" year="2025">-1</logit-exponent>
           </relative-cost-logit>
         </subsector>
       </supplysector>
@@ -14,7 +15,9 @@
       <supplysector name="regional iron and steel">
         <subsector name="domestic iron and steel">
           <relative-cost-logit>
-            <logit-exponent fillout="1" year="1975">-1</logit-exponent>
+            <!-- <logit-exponent fillout="1" year="1975">-1</logit-exponent> -->
+            <logit-exponent fillout="1" year="2020">0</logit-exponent>
+            <logit-exponent fillout="1" year="2025">-1</logit-exponent>
           </relative-cost-logit>
         </subsector>
       </supplysector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+   <world>
+      <region name="USA">
+         <policy-portfolio-standard name="Export-Floor">
+            <policyType>subsidy</policyType>
+            <market>USA</market>
+            <constraint year="2020">28.9</constraint>
+   	   </policy-portfolio-standard>
+      </region>
+   </world>
+</scenario>

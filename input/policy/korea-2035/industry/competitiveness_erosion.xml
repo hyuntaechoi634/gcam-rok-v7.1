@@ -15,6 +15,7 @@
             </energy-final-demand>
             <energy-final-demand name="chemical">
                 <final-energy-consumer>
+                    <aeei year="2025">0.01</aeei>
                     <aeei year="2030">0.0031</aeei>
                     <aeei year="2035">0.0031</aeei>
                 </final-energy-consumer>
