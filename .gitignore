@@ -98,3 +98,11 @@ __pycache__/
 
 # Large raw datasets (do not track)
 input/gcamdata/inst/extdata/**
+
+# Allow specific XMLs in gcamdata/xml
+!/input/gcamdata/xml/chemical_RF.xml
+!/input/gcamdata/xml/iron_steel_incelas_gssp2_ROK.xml
+!/input/gcamdata/xml/building_det_cp.xml
+!/input/gcamdata/xml/building_det_ep.xml
+!/input/gcamdata/xml/transportation_UCD_CORE_cp.xml
+!/input/gcamdata/xml/transportation_UCD_CORE_ep.xml
