@@ -40,8 +40,8 @@ This repository provides the scenario configurations and policy input files acco
 
 Download [GCAM v7.1](https://github.com/JGCRI/gcam-core/releases) and install it in a directory separate from this repository.  
 Reference installation guides:  
-- [Windows](https://www.youtube.com/watch?v=2Tv-5rryhk8) – P. Patel  
-- [MacOS](https://www.youtube.com/watch?v=AQnm_qZmypA) – P. Patel  
+- [Windows](https://www.youtube.com/watch?v=2Tv-5rryhk8)
+- [MacOS](https://www.youtube.com/watch?v=AQnm_qZmypA) 
 - [GCAM Build Instructions for Linux](https://jgcri.github.io/gcam-doc/gcam-build.html)
 
 ---
