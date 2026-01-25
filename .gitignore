@@ -76,3 +76,18 @@ xcuserdata
 *.xcuserstate
 .Rproj.user
 input/gcamdata/inst/extdata/emissions/CEDS/desktop.ini
+
+# GCAM runtime outputs
+exe/*.log
+exe/hs_err_pid*.log
+exe/main_log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python / R cache
+__pycache__/
+*.pyc
+.Rhistory
+.RData
