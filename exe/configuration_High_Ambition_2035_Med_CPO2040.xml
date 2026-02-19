@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035_v7</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035_v9</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -140,7 +140,7 @@
 
 		<!-- Gas -->
 		<Value name="gas-H2-blend">../input/policy/korea-2035/power/gas_H2_blend_technology.xml</Value>
-		<Value name="GH2B-ceiling-value">../input/policy/korea-2035/power/gas_H2_blend_const_value.xml</Value>
+		<Value name="GH2B-ceiling-value">../input/policy/korea-2035/power/gas_H2_blend_const_value_ep.xml</Value>
 		<Value name="GH2B-ceiling-techs">../input/policy/korea-2035/power/gas_H2_blend_const_techs.xml</Value>
 		<Value name="gas-ceiling-value">../input/policy/korea-2035/power/gas_const_value.xml</Value>
 		<Value name="gas-ceiling-techs">../input/policy/korea-2035/power/gas_const_techs.xml</Value>
@@ -153,7 +153,7 @@
 		<Value name="oil-turnoff">../input/policy/korea-2035/power/oil_turnoff_2025.xml</Value>
 
 		<!-- Nuclear -->
-		<Value name="nuclear-const-value">../input/policy/korea-2035/power/nuclear_const_value.xml</Value>
+		<Value name="nuclear-const-value">../input/policy/korea-2035/power/nuclear_const_value_ep.xml</Value>
 		<Value name="nuclear-const-techs">../input/policy/korea-2035/power/nuclear_const_techs.xml</Value>
 
 		<!-- Renewables -->
@@ -195,7 +195,8 @@
 		<Value name="iron-steel-scrap-const-techs">../input/policy/korea-2035/industry/ironsteel_scrap_constraint_techs.xml</Value>
 
 		<!-- Chemicals -->
-		<Value name="chemical-fuel-substitution">../input/policy/korea-2035/industry/chemical_fuel_substitution.xml</Value>
+		 <Value name="chemical-fuel-substitution">../input/policy/korea-2035/industry/chemical_naphtha_storage_fraction.xml</Value>
+		<!-- <Value name="chemical-fuel-substitution">../input/policy/korea-2035/industry/chemical_fuel_substitution.xml</Value> -->
 		<Value name="chemical-feedstock-substitution">../input/policy/korea-2035/industry/chemical_feedstock_substitution.xml</Value>
 
 		<!-- Semiconductors -->

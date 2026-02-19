@@ -2,11 +2,11 @@
 <scenario>
   <world>
     <region name="South Korea">
-      <policy-portfolio-standard name="Wind-Storage-Floor">
+      <policy-portfolio-standard name="Gas-CCS-Floor">
         <policyType>subsidy</policyType>
         <market>South Korea</market>
-        <constraint year="2030">0.026</constraint>
-        <constraint year="2035">0.094</constraint>
+        <constraint year="2030">0.0083</constraint>
+        <constraint year="2035">0.0227</constraint>
       </policy-portfolio-standard>
     </region>
   </world>

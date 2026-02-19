@@ -2,13 +2,17 @@
 <scenario>
   <world>
     <region name="South Korea">
-      <policy-portfolio-standard name="Onwind-Floor">
-        <policyType>subsidy</policyType>
+      <policy-portfolio-standard name="Onwind-Ceiling">
+        <policyType>tax</policyType>
         <market>South Korea</market>
-        <constraint year="2020">0.011</constraint>
-        <constraint year="2025">0.013</constraint>
-        <constraint year="2030">0.031</constraint>
-        <constraint year="2035">0.066</constraint>
+        <!-- 0.011 - 0.005 -->
+        <constraint year="2020">0.006</constraint>
+        <!-- 0.013 - 0.005 -->
+        <constraint year="2025">0.008</constraint>
+        <!-- 0.031 - 0.005 -->
+        <constraint year="2030">0.026</constraint>
+        <!-- 0.066 - 0.005 -->
+        <constraint year="2035">0.061</constraint>
       </policy-portfolio-standard>
     </region>
   </world>

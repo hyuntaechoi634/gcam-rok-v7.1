@@ -6,7 +6,7 @@
         <policyType>tax</policyType>
         <market>South Korea</market>
         <constraint year="2030">0.015</constraint>
-        <constraint year="2035">0.030</constraint>
+        <constraint year="2035">0.031</constraint>
       </policy-portfolio-standard>
     </region>
   </world>

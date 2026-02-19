@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<scenario>
+  <world>
+    <region name="South Korea">
+      <policy-portfolio-standard name="Gas-H2-Blend-Ceiling">
+        <policyType>tax</policyType>
+        <market>South Korea</market>
+        <min-price year="2030">-10</min-price>
+        <min-price year="2035">-10</min-price>
+        <constraint year="2030">0.052</constraint>
+        <constraint year="2035">0.111</constraint>
+      </policy-portfolio-standard>
+    </region>
+  </world>
+</scenario>

@@ -5,7 +5,7 @@
       <policy-portfolio-standard name="Coal-CCS-Ceiling">
         <policyType>tax</policyType>
         <market>South Korea</market>
-        <constraint year="2030">0.030</constraint>
+        <constraint year="2030">0.029</constraint>
         <constraint year="2035">0.063</constraint>
       </policy-portfolio-standard>
     </region>

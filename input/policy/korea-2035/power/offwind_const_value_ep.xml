@@ -6,8 +6,8 @@
         <policyType>subsidy</policyType>
         <market>South Korea</market>
         <constraint year="2025">0.006</constraint>
-        <constraint year="2030">0.206</constraint>
-        <constraint year="2035">0.364</constraint>
+        <constraint year="2030">0.197</constraint>
+        <constraint year="2035">0.480</constraint>
       </policy-portfolio-standard>
     </region>
   </world>

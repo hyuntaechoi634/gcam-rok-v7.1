@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<!--
+    Korea-specific naphtha (refined liquids) storage fraction for chemical feedstocks.
+
+    Adjusts the non-energy-use remove-fraction from the GCAM global default of 0.75
+    to 0.90 for South Korea, based on:
+      - IPCC 2006 Guidelines, Vol. 2, Ch. 1: default fraction of carbon stored
+        for naphtha/LPG/ethane feedstock = 0.80
+      - Park & Patel (2018): Korea-specific naphtha storage fraction ~0.90
+        (due to large petrochemical production and net chemical exports)
+
+    Reference: Park, H.-C. & Patel, M.K. (2018). Naphtha storage fraction and
+    greenhouse gas emissions in the Korean petrochemical industry.
+    Energy & Environment, 29(6). DOI: 10.1177/0958305X18762446
+-->
+<scenario>
+    <world>
+        <region name="South Korea">
+            <supplysector name="chemical feedstocks">
+                <subsector name="refined liquids">
+                    <stub-technology name="refined liquids">
+                        <period year="1975">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="1990">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2005">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2010">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2015">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2020">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2025">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2030">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2035">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2040">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2045">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2050">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2055">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2060">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2065">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2070">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2075">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2080">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2085">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2090">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2095">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                        <period year="2100">
+                            <non-energy-use-capture-component>
+                                <remove-fraction>0.90</remove-fraction>
+                                <target-gas>CO2</target-gas>
+                            </non-energy-use-capture-component>
+                        </period>
+                    </stub-technology>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>

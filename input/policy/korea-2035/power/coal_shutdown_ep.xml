@@ -7,10 +7,11 @@
           <stub-technology name="coal (conv pul) (once through)">
             <period year="2015">
               <s-curve-shutdown-decider delete="1" name="s-curve"/>
+              <profit-shutdown-decider delete="1" name="profit"/>
               <exogenous-shutdown-decider name="exogenous-shutdown">
-                <output-scalar year="2020">0.917</output-scalar>
-                <output-scalar year="2025">0.714</output-scalar>
-                <output-scalar year="2030">0.388</output-scalar>
+                <output-scalar year="2020">0.918</output-scalar>
+                <output-scalar year="2025">0.780</output-scalar>
+                <output-scalar year="2030">0.390</output-scalar>
                 <output-scalar year="2035">0.001</output-scalar>
               </exogenous-shutdown-decider>
             </period>
@@ -18,10 +19,11 @@
           <stub-technology name="coal (conv pul) (seawater)">
             <period year="2015">
               <s-curve-shutdown-decider delete="1" name="s-curve"/>
+              <profit-shutdown-decider delete="1" name="profit"/>
               <exogenous-shutdown-decider name="exogenous-shutdown">
-                <output-scalar year="2020">0.917</output-scalar>
-                <output-scalar year="2025">0.714</output-scalar>
-                <output-scalar year="2030">0.388</output-scalar>
+                <output-scalar year="2020">0.918</output-scalar>
+                <output-scalar year="2025">0.780</output-scalar>
+                <output-scalar year="2030">0.390</output-scalar>
                 <output-scalar year="2035">0.001</output-scalar>
               </exogenous-shutdown-decider>
             </period>
@@ -29,10 +31,11 @@
           <stub-technology name="coal (conv pul) (recirculating)">
             <period year="2015">
               <s-curve-shutdown-decider delete="1" name="s-curve"/>
+              <profit-shutdown-decider delete="1" name="profit"/>
               <exogenous-shutdown-decider name="exogenous-shutdown">
-                <output-scalar year="2020">0.917</output-scalar>
-                <output-scalar year="2025">0.714</output-scalar>
-                <output-scalar year="2030">0.388</output-scalar>
+                <output-scalar year="2020">0.918</output-scalar>
+                <output-scalar year="2025">0.780</output-scalar>
+                <output-scalar year="2030">0.390</output-scalar>
                 <output-scalar year="2035">0.001</output-scalar>
               </exogenous-shutdown-decider>
             </period>
@@ -40,10 +43,11 @@
           <stub-technology name="coal (conv pul) (cooling pond)">
             <period year="2015">
               <s-curve-shutdown-decider delete="1" name="s-curve"/>
+              <profit-shutdown-decider delete="1" name="profit"/>
               <exogenous-shutdown-decider name="exogenous-shutdown">
-                <output-scalar year="2020">0.917</output-scalar>
-                <output-scalar year="2025">0.714</output-scalar>
-                <output-scalar year="2030">0.388</output-scalar>
+                <output-scalar year="2020">0.918</output-scalar>
+                <output-scalar year="2025">0.780</output-scalar>
+                <output-scalar year="2030">0.390</output-scalar>
                 <output-scalar year="2035">0.001</output-scalar>
               </exogenous-shutdown-decider>
             </period>
@@ -52,10 +56,11 @@
           <stub-technology name="coal (conv pul) (dry cooling)">
             <period year="2015">
               <s-curve-shutdown-decider delete="1" name="s-curve"/>
+              <profit-shutdown-decider delete="1" name="profit"/>
               <exogenous-shutdown-decider name="exogenous-shutdown">
-                <output-scalar year="2020">0.917</output-scalar>
-                <output-scalar year="2025">0.714</output-scalar>
-                <output-scalar year="2030">0.388</output-scalar>
+                <output-scalar year="2020">0.918</output-scalar>
+                <output-scalar year="2025">0.780</output-scalar>
+                <output-scalar year="2030">0.390</output-scalar>
                 <output-scalar year="2035">0.001</output-scalar>
               </exogenous-shutdown-decider>
             </period>
@@ -68,10 +73,11 @@
           <stub-technology name="coal (IGCC) (once through)">
             <period year="2015">
               <!-- <s-curve-shutdown-decider delete="1" name="s-curve"/> -->
+              <!-- <profit-shutdown-decider delete="1" name="profit"/> -->
               <exogenous-shutdown-decider name="exogenous-shutdown">
-                <output-scalar year="2020">0.917</output-scalar>
-                <output-scalar year="2025">0.714</output-scalar>
-                <output-scalar year="2030">0.388</output-scalar>
+                <output-scalar year="2020">0.918</output-scalar>
+                <output-scalar year="2025">0.780</output-scalar>
+                <output-scalar year="2030">0.390</output-scalar>
                 <output-scalar year="2035">0.001</output-scalar>
               </exogenous-shutdown-decider>
             </period>
@@ -80,10 +86,11 @@
           <stub-technology name="coal (IGCC) (seawater)">
             <period year="2015">
               <!-- <s-curve-shutdown-decider delete="1" name="s-curve"/> -->
+              <!-- <profit-shutdown-decider delete="1" name="profit"/> -->
               <exogenous-shutdown-decider name="exogenous-shutdown">
-                <output-scalar year="2020">0.917</output-scalar>
-                <output-scalar year="2025">0.714</output-scalar>
-                <output-scalar year="2030">0.388</output-scalar>
+                <output-scalar year="2020">0.918</output-scalar>
+                <output-scalar year="2025">0.780</output-scalar>
+                <output-scalar year="2030">0.390</output-scalar>
                 <output-scalar year="2035">0.001</output-scalar>
               </exogenous-shutdown-decider>
             </period>
@@ -92,10 +99,11 @@
           <stub-technology name="coal (IGCC) (recirculating)">
             <period year="2015">
               <!-- <s-curve-shutdown-decider delete="1" name="s-curve"/> -->
+              <!-- <profit-shutdown-decider delete="1" name="profit"/> -->
               <exogenous-shutdown-decider name="exogenous-shutdown">
-                <output-scalar year="2020">0.917</output-scalar>
-                <output-scalar year="2025">0.714</output-scalar>
-                <output-scalar year="2030">0.388</output-scalar>
+                <output-scalar year="2020">0.918</output-scalar>
+                <output-scalar year="2025">0.780</output-scalar>
+                <output-scalar year="2030">0.390</output-scalar>
                 <output-scalar year="2035">0.001</output-scalar>
               </exogenous-shutdown-decider>
             </period>
@@ -104,10 +112,11 @@
           <stub-technology name="coal (IGCC) (dry cooling)">
             <period year="2015">
               <!-- <s-curve-shutdown-decider delete="1" name="s-curve"/> -->
+              <!-- <profit-shutdown-decider delete="1" name="profit"/> -->
               <exogenous-shutdown-decider name="exogenous-shutdown">
-                <output-scalar year="2020">0.917</output-scalar>
-                <output-scalar year="2025">0.714</output-scalar>
-                <output-scalar year="2030">0.388</output-scalar>
+                <output-scalar year="2020">0.918</output-scalar>
+                <output-scalar year="2025">0.780</output-scalar>
+                <output-scalar year="2030">0.390</output-scalar>
                 <output-scalar year="2035">0.001</output-scalar>
               </exogenous-shutdown-decider>
             </period>

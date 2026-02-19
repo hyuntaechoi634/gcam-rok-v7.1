@@ -4,18 +4,12 @@
     <region name="South Korea">
       <supplysector name="electricity">
         <subsector name="solar">
-          <stub-technology name="PV">
-            <period year="2020">
-              <input-tax name="Solar-Ceiling"/>
-            </period>
-            <period year="2025">
-              <input-tax name="Solar-Ceiling"/>
-            </period>
+          <stub-technology name="PV_storage">
             <period year="2030">
-              <input-tax name="Solar-Ceiling"/>
+              <input-subsidy name="PV-Storage-Floor"/>
             </period>
             <period year="2035">
-              <input-tax name="Solar-Ceiling"/>
+              <input-subsidy name="PV-Storage-Floor"/>
             </period>
           </stub-technology>
         </subsector>

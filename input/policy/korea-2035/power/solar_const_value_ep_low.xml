@@ -7,14 +7,16 @@
         <market>South Korea</market>
         <min-price year="2020">-10</min-price>
         <min-price year="2025">-10</min-price>
+        <min-price year="2030">-100</min-price>
+        <min-price year="2035">-100</min-price>
         <!-- 0.060 - 0.014 -->
         <constraint year="2020">0.046</constraint>
         <!-- 0.141 - 0.014 -->
         <constraint year="2025">0.127</constraint>
-        <!-- 0.242 - 0.014 -->
-        <constraint year="2030">0.228</constraint>
-        <!-- 0.319 - 0.014 -->
-        <constraint year="2035">0.305</constraint>
+        <!-- 0.350 - 0.014 -->
+        <constraint year="2030">0.336</constraint>
+        <!-- 0.597 - 0.014 -->
+        <constraint year="2035">0.583</constraint>
       </policy-portfolio-standard>
     </region>
   </world>

@@ -6,10 +6,11 @@
                     <stub-technology name="gas (steam/CT) (once through)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>
@@ -17,10 +18,11 @@
                     <stub-technology name="gas (steam/CT) (seawater)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>
@@ -28,10 +30,11 @@
                     <stub-technology name="gas (steam/CT) (recirculating)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>
@@ -39,10 +42,11 @@
                     <stub-technology name="gas (steam/CT) (cooling pond)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>
@@ -50,10 +54,11 @@
                     <stub-technology name="gas (steam/CT) (dry cooling)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>
@@ -65,10 +70,11 @@
                     <stub-technology name="gas (CC) (once through)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>
@@ -76,10 +82,11 @@
                     <stub-technology name="gas (CC) (seawater)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>
@@ -87,10 +94,11 @@
                     <stub-technology name="gas (CC) (recirculating)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>
@@ -98,10 +106,11 @@
                     <stub-technology name="gas (CC) (cooling pond)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>
@@ -109,10 +118,11 @@
                     <stub-technology name="gas (CC) (dry cooling)">
                         <period year="2015">
                             <s-curve-shutdown-decider delete="1" name="s-curve"/>
+                            <profit-shutdown-decider delete="1" name="profit"/>
                             <exogenous-shutdown-decider name="exogenous-shutdown">
-                                <output-scalar year="2020">1.22</output-scalar>
-                                <output-scalar year="2025">1.37</output-scalar>
-                                <output-scalar year="2030">1.28</output-scalar>
+                                <output-scalar year="2020">1.214</output-scalar>
+                                <output-scalar year="2025">1.366</output-scalar>
+                                <output-scalar year="2030">1.276</output-scalar>
                                 <output-scalar year="2035">0.713</output-scalar>
                             </exogenous-shutdown-decider>
                         </period>

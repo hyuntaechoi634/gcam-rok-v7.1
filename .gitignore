@@ -96,6 +96,9 @@ __pycache__/
 /impl/
 /analysis/
 
+# Paper (Overleaf source)
+/paper/
+
 # Large raw datasets (do not track)
 input/gcamdata/inst/extdata/**
 

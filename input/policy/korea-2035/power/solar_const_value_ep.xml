@@ -2,13 +2,21 @@
 <scenario>
   <world>
     <region name="South Korea">
-      <policy-portfolio-standard name="Solar-Floor">
-        <policyType>subsidy</policyType>
+      <policy-portfolio-standard name="Solar-Ceiling">
+        <policyType>tax</policyType>
         <market>South Korea</market>
-        <constraint year="2020">0.060</constraint>
-        <constraint year="2025">0.141</constraint>
-        <constraint year="2030">0.311</constraint>
-        <constraint year="2035">0.502</constraint>
+        <min-price year="2020">-10</min-price>
+        <min-price year="2025">-10</min-price>
+        <min-price year="2030">-50</min-price>
+        <min-price year="2035">-50</min-price>
+        <!-- 0.060 - 0.014 -->
+        <constraint year="2020">0.046</constraint>
+        <!-- 0.141 - 0.014 -->
+        <constraint year="2025">0.127</constraint>
+        <!-- 0.350 - 0.014 -->
+        <constraint year="2030">0.336</constraint>
+        <!-- 0.597 - 0.014 -->
+        <constraint year="2035">0.583</constraint>
       </policy-portfolio-standard>
     </region>
   </world>

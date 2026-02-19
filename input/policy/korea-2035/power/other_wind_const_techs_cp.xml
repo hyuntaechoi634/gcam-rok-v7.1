@@ -4,18 +4,12 @@
     <region name="South Korea">
       <supplysector name="electricity">
         <subsector name="wind">
-          <stub-technology name="wind">
-            <period year="2020">
-              <input-tax name="Onwind-Ceiling"/>
-            </period>
-            <period year="2025">
-              <input-tax name="Onwind-Ceiling"/>
-            </period>
+          <stub-technology name="wind_storage">
             <period year="2030">
-              <input-tax name="Onwind-Ceiling"/>
+              <input-subsidy name="Wind-Storage-Floor"/>
             </period>
             <period year="2035">
-              <input-tax name="Onwind-Ceiling"/>
+              <input-subsidy name="Wind-Storage-Floor"/>
             </period>
           </stub-technology>
         </subsector>
