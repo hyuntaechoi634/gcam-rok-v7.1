@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035_v9</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035_v11</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -286,7 +286,7 @@
 		<Value name="stop-period">-1</Value>
 		<Value name="stop-year">2035</Value>
 		<Value name="restart-period">-1</Value>
-		<Value name="restart-year">2030</Value>
+		<Value name="restart-year">-1</Value>
 		<Value name="max-parallelism">-1</Value>
 	</Ints>
 	<Doubles>

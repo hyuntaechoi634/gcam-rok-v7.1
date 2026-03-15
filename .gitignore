@@ -99,6 +99,12 @@ __pycache__/
 # Paper (Overleaf source)
 /paper/
 
+# Submission archives
+*.zip
+
+# LaTeX artifacts
+texput.log
+
 # Large raw datasets (do not track)
 input/gcamdata/inst/extdata/**
 

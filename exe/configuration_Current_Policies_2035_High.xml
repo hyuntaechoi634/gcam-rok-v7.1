@@ -5,7 +5,7 @@
 		<Value name="BatchFileName">batch_ag.xml</Value>
 		<Value name="policy-target-file">../input/policy/forcing_target_4p5.xml</Value>
 		<Value name="GHGInputFileName">../input/magicc/inputs/input_gases.emk</Value>
-		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035_v9</Value>
+		<Value write-output="1" append-scenario-name="0" name="xmldb-location">../output/database_basexdb_korea_2035_v11</Value>
 		<Value write-output="1" append-scenario-name="0" name="restart">./restart/restart</Value>
 		<Value write-output="1" append-scenario-name="1" name="xmlDebugFileName">debug.xml</Value>
 		<Value write-output="1" append-scenario-name="0" name="climatFileName">gas.emk</Value>
@@ -159,6 +159,8 @@
 		<Value name="nuclear-const-techs">../input/policy/korea-2035/power/nuclear_const_techs.xml</Value>
 
 		<!-- Renewables -->
+		<!-- <Value name="biomass-floor">../input/policy/korea-2035/power/biomass_const_value_cp.xml</Value> -->
+		<!-- <Value name="biomass-techs">../input/policy/korea-2035/power/biomass_const_techs_cp.xml</Value> -->
 		<Value name="hydro-fixed">../input/policy/korea-2035/power/hydro_fixedOutput.xml</Value>
 		<Value name="grid-building">../input/policy/korea-2035/power/grid_building.xml</Value>
 		<Value name="offwind-floor-value">../input/policy/korea-2035/power/offwind_const_value_cp.xml</Value>

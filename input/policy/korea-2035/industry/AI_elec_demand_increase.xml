@@ -6,13 +6,15 @@
                     <stub-technology name="electricity_net_ownuse">
                         <period year="2030">
                             <minicam-energy-input name="electricity">
-                                <coefficient>1.116</coefficient>
+                                <!-- 1.0476296 * (1 + 0.0485) -->
+                                <coefficient>1.098</coefficient>
                                 <market-name>South Korea</market-name>
                             </minicam-energy-input>
                         </period>
                         <period year="2035">
                             <minicam-energy-input name="electricity">
-                                <coefficient>1.135</coefficient>
+                                <!-- 1.0476296 * (1 + 0.0598) -->
+                                <coefficient>1.110</coefficient>
                                 <market-name>South Korea</market-name>
                             </minicam-energy-input>
                         </period>

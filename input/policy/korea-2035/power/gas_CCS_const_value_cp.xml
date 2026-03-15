@@ -5,8 +5,8 @@
       <policy-portfolio-standard name="Gas-CCS-Floor">
         <policyType>subsidy</policyType>
         <market>South Korea</market>
-        <constraint year="2030">0.0083</constraint>
-        <constraint year="2035">0.0227</constraint>
+        <constraint year="2030">0.017</constraint>
+        <constraint year="2035">0.031</constraint>
       </policy-portfolio-standard>
     </region>
   </world>

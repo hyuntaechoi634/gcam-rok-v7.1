@@ -9,13 +9,13 @@
               <fixedOutput>0.017</fixedOutput>
             </period>
             <period year="2025">
-              <fixedOutput>0.013</fixedOutput>
+              <fixedOutput>0.0133</fixedOutput>
             </period>
             <period year="2030">
-              <fixedOutput>0.013</fixedOutput>
+              <fixedOutput>0.0133</fixedOutput>
             </period>
             <period year="2035">
-              <fixedOutput>0.013</fixedOutput>
+              <fixedOutput>0.0133</fixedOutput>
             </period>
           </stub-technology>
         </subsector>
