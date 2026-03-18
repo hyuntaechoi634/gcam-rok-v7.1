@@ -11,6 +11,13 @@
 # Files produced by data system
 outputs/
 xml*/
+# User-modified XMLs (override xml*/ ignore)
+!xml/chemical_RF.xml
+!xml/iron_steel_incelas_gssp2_ROK.xml
+!xml/building_det_cp.xml
+!xml/building_det_ep.xml
+!xml/transportation_UCD_CORE_cp.xml
+!xml/transportation_UCD_CORE_ep.xml
 sample-generator/outputs/
 R/*.html
 Rplots.pdf

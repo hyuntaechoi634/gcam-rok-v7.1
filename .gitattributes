@@ -1,0 +1,4 @@
+input/gcamdata/xml/building_det_cp.xml filter=lfs diff=lfs merge=lfs -text
+input/gcamdata/xml/building_det_ep.xml filter=lfs diff=lfs merge=lfs -text
+input/gcamdata/xml/transportation_UCD_CORE_cp.xml filter=lfs diff=lfs merge=lfs -text
+input/gcamdata/xml/transportation_UCD_CORE_ep.xml filter=lfs diff=lfs merge=lfs -text
