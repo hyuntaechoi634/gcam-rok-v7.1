@@ -27,6 +27,7 @@ This repository provides the scenario configurations and policy input files acco
 | ├─ `configuration_High_Ambition_2035_Med_CPO2040.xml` | *High Ambition* scenario with coal phase-out extended to 2040 under medium-range emissions assumptions |
 | ├─ `configuration_High_Ambition_2035_Med_AI.xml` | *High Ambition* scenario with AI-driven electricity demand increase under medium-range emissions assumptions |
 | ├─ `configuration_Current_Policies_2035_Med_AI.xml` | *Current Policies* scenario with AI-driven electricity demand increase under medium-range emissions assumptions |
+| `input/gcamdata/xml/` | GCAM XML input files (base and Korea-specific) |
 | `input/policy/korea-2035/` | Sectoral policy input files for Korea’s 2035 mitigation scenarios |
 | `input/solution/` | Solver configuration files |
 | ├─ `cal_broyden_config.xml` | Broyden solver configuration for *Current Policies* scenarios |
