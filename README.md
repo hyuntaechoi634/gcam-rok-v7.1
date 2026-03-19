@@ -2,7 +2,9 @@
 
 This repository provides the scenario configurations and policy input files accompanying:
 
-> Choi, H., Park, S., & McJeon, H. *High-ambition climate action in all sectors can achieve a 58% greenhouse gas emissions reduction in Korea by 2035*. [Working Paper / Preprint link]
+> Choi, H., Park, S. & McJeon, H. High-ambition climate action in all sectors can achieve a 59% greenhouse gas emissions reduction in Korea by 2035. *Sci Rep* (2026). https://doi.org/10.1038/s41598-026-44130-2
+
+**EarthArxiv preprint**: https://eartharxiv.org/repository/view/9937/
 
 ## Contact
 - **Hyuntae Choi** – [chti0265@snu.ac.kr](mailto:chti0265@snu.ac.kr)  
@@ -16,15 +18,19 @@ This repository provides the scenario configurations and policy input files acco
 | Directory / File | Description |
 |------------------|-------------|
 | `exe/` | Scenario configuration files for GCAM model runs |
-| ├─ `configuration_Current_Policies_Med.xml` | Main configuration for the *Current Policies* scenario under medium-range emissions assumptions |
-| ├─ `configuration_High_Ambition_Med.xml` | Main configuration for the *High Ambition* scenario under medium-range emissions assumptions |
-| ├─ `configuration_Current_Policies_Low.xml` | Sensitivity configuration for the *Current Policies* scenario under low-emissions assumptions |
-| ├─ `configuration_High_Ambition_Low.xml` | Sensitivity configuration for the *High Ambition* scenario under low-emissions assumptions |
-| ├─ `configuration_Current_Policies_High.xml` | Sensitivity configuration for the *Current Policies* scenario under high-emissions assumptions |
-| ├─ `configuration_High_Ambition_High.xml` | Sensitivity configuration for the *High Ambition* scenario under high-emissions assumptions |
-| ├─ `configuration_High_Ambition_Med_CPO2040.xml` | *High Ambition* scenario with coal phase-out extended to 2040 under medium-range emissions assumptions |
-| ├─ `configuration_High_Ambition_Med_AI.xml` | *High Ambition* scenario with AI-driven electricity demand increase under medium-range emissions assumptions |
+| ├─ `configuration_Current_Policies_2035_Med.xml` | Main configuration for the *Current Policies* scenario under medium-range emissions assumptions |
+| ├─ `configuration_High_Ambition_2035_Med.xml` | Main configuration for the *High Ambition* scenario under medium-range emissions assumptions |
+| ├─ `configuration_Current_Policies_2035_Low.xml` | Sensitivity configuration for the *Current Policies* scenario under low-emissions assumptions |
+| ├─ `configuration_High_Ambition_2035_Low.xml` | Sensitivity configuration for the *High Ambition* scenario under low-emissions assumptions |
+| ├─ `configuration_Current_Policies_2035_High.xml` | Sensitivity configuration for the *Current Policies* scenario under high-emissions assumptions |
+| ├─ `configuration_High_Ambition_2035_High.xml` | Sensitivity configuration for the *High Ambition* scenario under high-emissions assumptions |
+| ├─ `configuration_High_Ambition_2035_Med_CPO2040.xml` | *High Ambition* scenario with coal phase-out extended to 2040 under medium-range emissions assumptions |
+| ├─ `configuration_High_Ambition_2035_Med_AI.xml` | *High Ambition* scenario with AI-driven electricity demand increase under medium-range emissions assumptions |
+| ├─ `configuration_Current_Policies_2035_Med_AI.xml` | *Current Policies* scenario with AI-driven electricity demand increase under medium-range emissions assumptions |
 | `input/policy/korea-2035/` | Sectoral policy input files for Korea’s 2035 mitigation scenarios |
+| `input/solution/` | Solver configuration files |
+| ├─ `cal_broyden_config.xml` | Broyden solver configuration for *Current Policies* scenarios |
+| ├─ `cal_broyden_config_ep.xml` | Broyden solver configuration for *High Ambition* scenarios |
 
 ---
 
@@ -49,37 +55,35 @@ Reference installation guides:
 ### 2. Attach Policy Input Files
 
 - Copy the `./input/policy/korea-2035/` folder into the `input` folder of your GCAM installation.
-- Download the required GCAM XML input files from the following folder:
-  https://drive.google.com/drive/folders/1WRlMSj8AzUgIrtq0SrSJqcSE6OKhmm2C?usp=sharing
-
-  This folder contains all base and Korea-specific XML inputs required to run the scenarios.
-  Place all contents into:
-  `input/gcamdata/xml/`
+- The required GCAM XML input files are already included in `input/gcamdata/xml/`.
 
 ### 3. Run Scenarios
 
 Navigate to the `exe` directory in your GCAM v7.1 installation.
 
+```bash
+cd gcam-core/exe
+```
+
 Example (Windows PowerShell):
 
 ```powershell
-.\gcam.exe -C configuration_Current_Policies_Med.xml
-.\gcam.exe -C configuration_High_Ambition_Med.xml
-
+.\gcam.exe -C configuration_Current_Policies_2035_Med.xml
+.\gcam.exe -C configuration_High_Ambition_2035_Med.xml
 ```
 
 Example (Linux/Mac):
 ```bash
-./gcam -C configuration_Current_Policies_Med.xml
-./gcam -C configuration_High_Ambition_Med.xml
+./gcam -C configuration_Current_Policies_2035_Med.xml
+./gcam -C configuration_High_Ambition_2035_Med.xml
 ```
 
 ## Citation
 If you use this package in your work, please cite:
 ```text
-Choi, H., Park, S., & McJeon, H. (2025).
-High-ambition climate action in all sectors can achieve a 58% greenhouse gas emissions reduction in Korea by 2035. Working Paper.
-[Preprint link or DOI]
+Choi, H., Park, S. & McJeon, H. High-ambition climate action in all sectors can achieve
+a 59% greenhouse gas emissions reduction in Korea by 2035. Sci Rep (2026).
+https://doi.org/10.1038/s41598-026-44130-2
 ```
 
 ## License
