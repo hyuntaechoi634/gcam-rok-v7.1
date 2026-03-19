@@ -7,7 +7,7 @@ This repository provides the scenario configurations and policy input files acco
 **EarthArxiv preprint**: https://eartharxiv.org/repository/view/9937/
 
 ## Contact
-- **Hyuntae Choi** – [chti0265@snu.ac.kr](mailto:chti0265@snu.ac.kr)  
+- **Hyuntae Choi** – [hyuntae.choi.iam@gmail.com](mailto:hyuntae.choi.iam@gmail.com)  
 - **Haewon McJeon** – [hmcjeon@kaist.ac.kr](mailto:hmcjeon@kaist.ac.kr)  
 - **Sangin Park** – [sanpark@snu.ac.kr](mailto:sanpark@snu.ac.kr)  
 
